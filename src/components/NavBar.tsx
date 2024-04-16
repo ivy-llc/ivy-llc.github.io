@@ -4,7 +4,7 @@ import ivyLogo from '../assets/old-ivy-logo.svg'
 
 function TaskBar() {
     return (
-        <nav className="nav">
+        <nav className="nav bar">
             <a href="https://transpile-ai.com">
                 <img src={ivyLogo} className="temp logo" alt="Transpile AI Logo" />
             </a>
