@@ -34,3 +34,11 @@ body {
     width: 40px;
     height: auto;
 }
+
+.social.nav li {
+    filter: drop-shadow(0 0 .1rem #000000de);
+}
+
+.social.nav li:hover {
+    filter: drop-shadow(0 0 .3rem #000000de);
+}

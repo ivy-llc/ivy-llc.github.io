@@ -14,10 +14,11 @@ body {
 
 .nav.bar ul {
     padding: 0;
-    margin: 0;
+    margin: 0.1rem;
     list-style: none;
     display: flex;
     gap: 1rem;
+    align-items: center;
 }
 
 .nav.bar a {
@@ -29,10 +30,11 @@ body {
     padding: .25rem;
 }
 
-.nav.bar li:active {
-    background-color: #555;
+.nav.bar .page-links li:hover {
+    filter: drop-shadow(0 0 .1rem #ffffffde);
 }
 
-.nav.bar li:hover {
-    background-color: #777;
+.nav.bar .title-logo {
+    font-size: 24px;
+    font-weight: bold;
 }
