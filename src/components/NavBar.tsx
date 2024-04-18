@@ -2,13 +2,18 @@ import './NavBar.css'
 import ivyLogo from '../assets/old-ivy-logo.svg'
 
 
-function TaskBar() {
+function NavBar() {
     return (
         <nav className="nav bar">
-            <a href="https://transpile-ai.com">
-                <img src={ivyLogo} className="temp logo" alt="Transpile AI Logo" />
-            </a>
-            <ul>
+            <ul className='title-logo'>
+                <li>
+                    {/* <a href="https://transpile-ai.com">
+                        <img src={ivyLogo} className="temp logo" alt="Transpile AI Logo" />
+                    </a> */}
+                    <a href="https://transpile-ai.com">Transpile AI</a>
+                </li>
+            </ul>
+            <ul className='page-links'>
                 <li>
                     <a href="https://unify.ai/docs/ivy/">Docs</a>
                 </li>
@@ -23,4 +28,4 @@ function TaskBar() {
     );
 };
 
-export default TaskBar;
+export default NavBar;

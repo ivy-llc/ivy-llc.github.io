@@ -1,0 +1,56 @@
+.transpilation {
+    justify-content: space-between;
+}
+
+.transpilation img {
+    height: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+.ivy-transpile {
+    border-radius: 20px;
+    width: 500px;
+}
+
+.torch-model {
+    border-radius: 30px;
+    width: 550px;
+    border: 1px solid black;
+}
+
+.tf-model {
+    border-radius: 30px;
+    width: 550px;
+    border: 1px solid black;
+}
+
+.transpilation-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.transpilation-container img {
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.transpilation-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.framework-logo {
+    width: 50px;
+    height: auto;
+}
+
+.arrow {
+    width: 120px;
+    height: auto;
+    margin-top: 10px;
+}
