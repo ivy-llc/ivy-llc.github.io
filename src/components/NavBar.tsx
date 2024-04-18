@@ -1,24 +1,23 @@
 import './NavBar.css'
-import ivyLogo from '../assets/old-ivy-logo.svg'
+import { useNavigate } from 'react-router-dom';
 
 
 function NavBar() {
+    const navigate = useNavigate();
+
     return (
         <nav className="nav bar">
-            <ul className='title-logo'>
+            <ul className="title-logo">
                 <li>
-                    {/* <a href="https://transpile-ai.com">
-                        <img src={ivyLogo} className="temp logo" alt="Transpile AI Logo" />
-                    </a> */}
-                    <a href="https://transpile-ai.com">Transpile AI</a>
+                    <button onClick={() => navigate("/")} className="title-button">Transpile AI</button>
                 </li>
             </ul>
-            <ul className='page-links'>
+            <ul className="page-links">
                 <li>
                     <a href="https://unify.ai/docs/ivy/">Docs</a>
                 </li>
                 <li>
-                    <a href="https://console.unify.ai/">Console</a>
+                    <button onClick={() => navigate("/console")}>Console</button>
                 </li>
                 <li>
                     <a href="https://github.com/unifyai/ivy">GitHub</a>

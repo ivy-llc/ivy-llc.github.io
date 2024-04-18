@@ -33,6 +33,13 @@ body {
 .nav.bar button {
     border: none;
     background: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav.bar .title-button {
+    border: none;
+    background: none;
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
