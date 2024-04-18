@@ -30,6 +30,14 @@ body {
     padding: .25rem;
 }
 
+.nav.bar button {
+    border: none;
+    background: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .nav.bar .page-links li:hover {
     filter: drop-shadow(0 0 .1rem #ffffffde);
 }
