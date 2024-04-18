@@ -21,6 +21,8 @@ function App() {
             <h1>Works with any model size and complexity</h1>
             <h1>Unlock new deployment options</h1>
             <h1>Easily edit model after translation</h1>
+            <h1>Models are performance optimized</h1>
+            <h1>Find the optimal framework/hardware combination for your model</h1>
             <p className="ivy-intro">
                 Ivy is the world's first source-to-source AI transpiler - allowing incredibly easy
                 conversion of ML models between PyTorch, TensorFlow, Jax, and more!

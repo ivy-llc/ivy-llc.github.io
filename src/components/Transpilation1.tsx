@@ -1,3 +1,5 @@
+import { useState } from 'react';
+import { CSSTransition } from 'react-transition-group';
 import './Transpilation1.css'
 import torchLogo from '../assets/torch-logo.png'
 import tfLogo from '../assets/tf-logo.png'
@@ -5,8 +7,11 @@ import ivyTranspile from '../assets/ivy-transpile.png'
 import arrow from '../assets/arrow-black.png'
 import torchModel from '../assets/torch1.png'
 import tfModel from '../assets/translated-tf1.png'
+import Explanation1 from './Explanation1'
 
 function Transpilation1() {
+    const [showExplanation, setShowExplanation] = useState<boolean>(false);
+
     return (
         <div>
             <div className="transpilation">
@@ -25,6 +30,17 @@ function Transpilation1() {
                     <img src={tfModel} className="tf-model" alt="Transpiled TensorFlow Model" title="Transpiled TensorFlow Model" />
                 </div>
             </div>
+            <button onClick={() => setShowExplanation(!showExplanation)}>
+                {showExplanation ? 'Deep Dive -' : 'Deep Dive +'}
+            </button>
+            <CSSTransition
+                in={showExplanation}
+                timeout={1000}
+                classNames="explanation1"
+                unmountOnExit
+            >
+                <Explanation1 />
+            </CSSTransition>
         </div>
     );
 };

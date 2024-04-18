@@ -4,7 +4,6 @@
 
 .transpilation img {
     height: auto;
-    margin-top: 50px;
     border: 1px solid black;
 }
 
@@ -53,4 +52,26 @@
     width: 120px;
     height: auto;
     margin-top: 10px;
+}
+
+.explanation1-enter {
+    opacity: 0;
+    max-height: 0;
+}
+
+.explanation1-enter-active {
+    opacity: 1;
+    max-height: 500px;
+    transition: opacity 2s, max-height 5s;
+}
+
+.explanation1-exit {
+    opacity: 1;
+    max-height: 500px;
+}
+
+.explanation1-exit-active {
+    opacity: 0;
+    max-height: 0;
+    transition: opacity .5s, max-height .5s;
 }
