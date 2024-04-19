@@ -1,0 +1,46 @@
+.supported-frameworks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.supported-frameworks img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.jax-logo {
+    height: 70px;
+    width: auto;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.mlx-logo {
+    height: 70px;
+    width: auto;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.numpy-logo {
+    height: 70px;
+    width: auto;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.torch-logo {
+    height: 52px;
+    width: auto;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.tf-logo {
+    height: 90px;
+    width: auto;
+    margin-left: 35px;
+    margin-right: 35px;
+    filter: drop-shadow(0 0 1px #000000de);
+}
