@@ -1,5 +1,6 @@
 import './ContactPage.css'
 import NavBar from './NavBar';
+import SocialHandles from './SocialHandles'
 
 function ContactPage() {
     return (
@@ -10,6 +11,7 @@ function ContactPage() {
                 color: 'green',
                 textDecoration: 'underline',
             }}>hello@transpile-ai.com</span></p>
+            <SocialHandles />
         </>
     );
 };
