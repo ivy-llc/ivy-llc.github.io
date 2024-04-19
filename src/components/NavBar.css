@@ -16,7 +16,7 @@ body {
 
 .nav.bar ul {
     padding: 0;
-    margin: 0.1rem;
+    margin: 0.5rem;
     list-style: none;
     display: flex;
     gap: 1rem;
@@ -30,21 +30,28 @@ body {
     display: flex;
     align-items: center;
     padding: .25rem;
+    font-size: 18px;
 }
 
 .nav.bar button {
     border: none;
     background: none;
-    font-size: 16px;
+    font-size: 18px;
     cursor: pointer;
 }
 
 .nav.bar .title-button {
     border: none;
     background: none;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
     cursor: pointer;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav.bar .page-links li {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .nav.bar .page-links li:hover {
