@@ -22,6 +22,9 @@ function NavBar() {
                 <li>
                     <a href="https://github.com/unifyai/ivy">GitHub</a>
                 </li>
+                <li>
+                    <button onClick={() => navigate("/contact")}>Contact</button>
+                </li>
             </ul>
         </nav>
     );
