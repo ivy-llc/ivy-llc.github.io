@@ -8,11 +8,21 @@ import tfLogo from '../assets/tf-full-logo.png'
 function SupportedFrameworks() {
     return (
         <div className="supported-frameworks">
-            <img src={torchLogo} alt="PyTorch" className="torch-logo" />
-            <img src={tfLogo} alt="TensorFlow" className="tf-logo" />
-            <img src={jaxLogo} alt="JAX" className="jax-logo" />
-            <img src={mlxLogo} alt="MLX" className="mlx-logo" />
-            <img src={numpyLogo} alt="Numpy" className="numpy-logo" />
+            <a href="https://pytorch.org/" target="_blank" rel="noopener noreferrer">
+                <img src={torchLogo} alt="PyTorch" className="torch-logo" />
+            </a>
+            <a href="https://www.tensorflow.org/" target="_blank" rel="noopener noreferrer">
+                <img src={tfLogo} alt="TensorFlow" className="tf-logo" />
+            </a>
+            <a href="https://jax.readthedocs.io/en/latest/notebooks/quickstart.html" target="_blank" rel="noopener noreferrer">
+                <img src={jaxLogo} alt="JAX" className="jax-logo" />
+            </a>
+            <a href="https://github.com/ml-explore/mlx" target="_blank" rel="noopener noreferrer">
+                <img src={mlxLogo} alt="MLX" className="mlx-logo" />
+            </a>
+            <a href="https://numpy.org/" target="_blank" rel="noopener noreferrer">
+                <img src={numpyLogo} alt="Numpy" className="numpy-logo" />
+            </a>
         </div>
     );
 };
