@@ -1,18 +1,14 @@
 import { useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import './Transpilation2.css'
-import torchLogo from '../assets/torch-logo.png'
-import tfLogo from '../assets/tf-logo.png'
 import ivyTranspile from '../assets/tf-translate.png'
-import arrow from '../assets/curved-arrow-dark-gray.png'
 import torchModel from '../assets/torch1.png'
-import tfModel from '../assets/translated-tf1.png'
 import Explanation1 from './Explanation1'
 import torchTranslate from '../assets/torch-330-110.png'
 import tfTranslate from '../assets/tf-330-110.png'
 
 function Transpilation2() {
-    const [showExplanation, setShowExplanation] = useState<boolean>(false);
+    const [showExplanation] = useState<boolean>(false);  // setShowExplanation
 
     return (
         <div>

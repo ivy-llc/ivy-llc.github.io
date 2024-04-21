@@ -10,7 +10,7 @@ import tfModel from '../assets/translated-tf1.png'
 import Explanation1 from './Explanation1'
 
 function Transpilation1() {
-    const [showExplanation, setShowExplanation] = useState<boolean>(false);
+    const [showExplanation] = useState<boolean>(false);  // setShowExplanation
 
     return (
         <div>
