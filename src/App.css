@@ -2,3 +2,49 @@
     margin: 0 auto;
     text-align: center;
 }
+
+.deep-dive-enter {
+    opacity: 0;
+    max-height: 0;
+}
+
+.deep-dive-enter-active {
+    opacity: 1;
+    max-height: 500px;
+    transition: opacity 2s, max-height 5s;
+}
+
+.deep-dive-exit {
+    opacity: 1;
+    max-height: 500px;
+}
+
+.deep-dive-exit-active {
+    opacity: 0;
+    max-height: 0;
+    transition: opacity .5s, max-height .5s;
+}
+
+.deep-dive-button {
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: #1c1b1b;
+    font-size: 17px;
+    cursor: pointer;
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.deep-dive-button:hover {
+    box-shadow: 0 0 5px white;
+}
+
+.main-heading {
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.sub-heading {
+    margin-top: 80px;
+    margin-bottom: 15px;
+}

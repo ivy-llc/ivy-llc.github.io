@@ -30,13 +30,13 @@ function Transpilation1() {
                     <img src={tfModel} className="tf-model" alt="Transpiled TensorFlow Model" title="Transpiled TensorFlow Model" />
                 </div>
             </div>
-            <button className="transpilation-explantation" onClick={() => setShowExplanation(!showExplanation)}>
+            {/* <button className="deep-dive-button" onClick={() => setShowExplanation(!showExplanation)}>
                 {showExplanation ? 'Deep Dive -' : 'Deep Dive +'}
-            </button>
+            </button> */}
             <CSSTransition
                 in={showExplanation}
                 timeout={1000}
-                classNames="explanation1"
+                classNames="deep-dive"
                 unmountOnExit
             >
                 <Explanation1 />

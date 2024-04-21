@@ -42,5 +42,5 @@
     width: auto;
     margin-left: 35px;
     margin-right: 35px;
-    filter: drop-shadow(0 0 1px #000000de);
+    /* filter: drop-shadow(0 0 1px black); */
 }
