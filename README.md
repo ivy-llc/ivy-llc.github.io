@@ -14,4 +14,4 @@
 
 - This makes an automatic build commit to the `gh-pages` branch of this repo
 
-- NOTE: this can cause the website to be down for up to an hour while it's updating
+- NOTE: this can cause the website to be down for some time while it's updating
