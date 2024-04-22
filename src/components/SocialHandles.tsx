@@ -1,7 +1,8 @@
+import React from 'react'
+import './SocialHandles.css'
 import githubLogo from '../assets/github.svg'
 import discordLogo from '../assets/discord.svg'
 import linkedinLogo from '../assets/linkedin.svg'
-import './SocialHandles.css'
 
 function SocialHandles() {
     return (
@@ -25,6 +26,6 @@ function SocialHandles() {
             </ul>
         </nav>
     );
-};
+}
 
 export default SocialHandles;

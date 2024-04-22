@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import './Transpilation2.css'
@@ -39,6 +40,6 @@ function Transpilation2() {
             </CSSTransition>
         </div>
     );
-};
+}
 
 export default Transpilation2;

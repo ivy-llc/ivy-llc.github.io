@@ -1,3 +1,4 @@
+import React from 'react'
 import './ContactPage.css'
 import NavBar from './NavBar';
 import SocialHandles from './SocialHandles'
@@ -14,6 +15,6 @@ function ContactPage() {
             <SocialHandles />
         </>
     );
-};
+}
 
 export default ContactPage;

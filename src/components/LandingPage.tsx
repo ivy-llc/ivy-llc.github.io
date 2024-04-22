@@ -1,3 +1,4 @@
+import React from 'react'
 import './LandingPage.css'
 import NavBar from './NavBar'
 import SocialHandles from './SocialHandles'

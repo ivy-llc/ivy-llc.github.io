@@ -1,3 +1,4 @@
+import React from 'react'
 import './NavBar.css'
 import { useNavigate } from 'react-router-dom';
 
@@ -28,6 +29,6 @@ function NavBar() {
             </ul>
         </nav>
     );
-};
+}
 
 export default NavBar;

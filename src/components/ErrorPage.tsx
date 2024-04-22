@@ -1,8 +1,8 @@
+import React from 'react'
 import './LandingPage.css'
 import NavBar from './NavBar'
 
-// the component representing the full webpage
-function LandingPage() {
+function ErrorPage() {
     return (
         <>
             <NavBar />
@@ -12,4 +12,4 @@ function LandingPage() {
     )
 }
 
-export default LandingPage
+export default ErrorPage

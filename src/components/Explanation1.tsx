@@ -1,3 +1,4 @@
+import React from 'react'
 import './Explanation1.css'
 
 function Explanation1() {
@@ -6,6 +7,6 @@ function Explanation1() {
             <p>Explanation of the transpilation</p>
         </div>
     );
-};
+}
 
 export default Explanation1;

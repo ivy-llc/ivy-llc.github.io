@@ -1,3 +1,4 @@
+import React from 'react'
 import './ConsolePage.css'
 import NavBar from './NavBar'
 import SocialHandles from './SocialHandles'
@@ -11,6 +12,6 @@ function ConsolePage() {
             <SocialHandles />
         </>
     );
-};
+}
 
 export default ConsolePage;

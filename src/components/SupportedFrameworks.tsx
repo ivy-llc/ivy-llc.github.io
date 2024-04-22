@@ -1,3 +1,4 @@
+import React from 'react'
 import './SupportedFrameworks.css'
 import jaxLogo from '../assets/jax-logo.png'
 import numpyLogo from '../assets/numpy-logo.png'
@@ -25,6 +26,6 @@ function SupportedFrameworks() {
             </a>
         </div>
     );
-};
+}
 
 export default SupportedFrameworks;
