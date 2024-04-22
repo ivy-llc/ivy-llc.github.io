@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.7fa8acd9.css",
-    "main.js": "/static/js/main.0bbc3581.js",
-    "static/media/mlx-logo.png": "/static/media/mlx-logo.ac51dfe1ae4676baaee7.png",
-    "static/media/translated-tf1.png": "/static/media/translated-tf1.f19d2260523ba9426f74.png",
-    "static/media/torch1.png": "/static/media/torch1.a9597a373dfba15d993a.png",
-    "static/media/jax-logo.png": "/static/media/jax-logo.31cfca4de65901824879.png",
-    "static/media/torch-full-logo.png": "/static/media/torch-full-logo.ec7b25d05f2d463847b4.png",
-    "static/media/curved-arrow-dark-gray.png": "/static/media/curved-arrow-dark-gray.24a3b7a46c0c2a50506c.png",
-    "static/media/tf-full-logo.png": "/static/media/tf-full-logo.d74f0d077307b280f113.png",
-    "static/media/numpy-logo.png": "/static/media/numpy-logo.ebf20e9b7c45b78d2a59.png",
-    "static/media/torch-330-110.png": "/static/media/torch-330-110.8c78f63c2a1b2ec4df21.png",
-    "static/media/tf-330-110.png": "/static/media/tf-330-110.afc636308506b3afc126.png",
-    "static/media/ivy-transpile.png": "/static/media/ivy-transpile.a99ff2bfc3c288da1e10.png",
-    "static/media/torch-logo.png": "/static/media/torch-logo.e233fc48a48fde996610.png",
-    "static/media/tf-translate.png": "/static/media/tf-translate.9de0ac443d13eac5229a.png",
-    "static/media/discord.svg": "/static/media/discord.33beaf9c5c2d107538e7de2efbe19a3f.svg",
-    "static/media/github.svg": "/static/media/github.a09a52855b3c8cea13977bfad9cb02c7.svg",
-    "static/media/linkedin.svg": "/static/media/linkedin.31de5527706797480a84925dce667f4a.svg",
-    "index.html": "/index.html",
-    "main.7fa8acd9.css.map": "/static/css/main.7fa8acd9.css.map",
-    "main.0bbc3581.js.map": "/static/js/main.0bbc3581.js.map"
+    "main.css": "/transpile-ai.com/static/css/main.7fa8acd9.css",
+    "main.js": "/transpile-ai.com/static/js/main.4afc0d65.js",
+    "static/media/mlx-logo.png": "/transpile-ai.com/static/media/mlx-logo.ac51dfe1ae4676baaee7.png",
+    "static/media/translated-tf1.png": "/transpile-ai.com/static/media/translated-tf1.f19d2260523ba9426f74.png",
+    "static/media/torch1.png": "/transpile-ai.com/static/media/torch1.a9597a373dfba15d993a.png",
+    "static/media/jax-logo.png": "/transpile-ai.com/static/media/jax-logo.31cfca4de65901824879.png",
+    "static/media/torch-full-logo.png": "/transpile-ai.com/static/media/torch-full-logo.ec7b25d05f2d463847b4.png",
+    "static/media/curved-arrow-dark-gray.png": "/transpile-ai.com/static/media/curved-arrow-dark-gray.24a3b7a46c0c2a50506c.png",
+    "static/media/tf-full-logo.png": "/transpile-ai.com/static/media/tf-full-logo.d74f0d077307b280f113.png",
+    "static/media/numpy-logo.png": "/transpile-ai.com/static/media/numpy-logo.ebf20e9b7c45b78d2a59.png",
+    "static/media/torch-330-110.png": "/transpile-ai.com/static/media/torch-330-110.8c78f63c2a1b2ec4df21.png",
+    "static/media/tf-330-110.png": "/transpile-ai.com/static/media/tf-330-110.afc636308506b3afc126.png",
+    "static/media/ivy-transpile.png": "/transpile-ai.com/static/media/ivy-transpile.a99ff2bfc3c288da1e10.png",
+    "static/media/torch-logo.png": "/transpile-ai.com/static/media/torch-logo.e233fc48a48fde996610.png",
+    "static/media/tf-translate.png": "/transpile-ai.com/static/media/tf-translate.9de0ac443d13eac5229a.png",
+    "static/media/discord.svg": "/transpile-ai.com/static/media/discord.33beaf9c5c2d107538e7de2efbe19a3f.svg",
+    "static/media/github.svg": "/transpile-ai.com/static/media/github.a09a52855b3c8cea13977bfad9cb02c7.svg",
+    "static/media/linkedin.svg": "/transpile-ai.com/static/media/linkedin.31de5527706797480a84925dce667f4a.svg",
+    "index.html": "/transpile-ai.com/index.html",
+    "main.7fa8acd9.css.map": "/transpile-ai.com/static/css/main.7fa8acd9.css.map",
+    "main.4afc0d65.js.map": "/transpile-ai.com/static/js/main.4afc0d65.js.map"
   },
   "entrypoints": [
     "static/css/main.7fa8acd9.css",
-    "static/js/main.0bbc3581.js"
+    "static/js/main.4afc0d65.js"
   ]
 }
