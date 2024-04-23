@@ -15,3 +15,5 @@
 - This makes an automatic build commit to the `gh-pages` branch of this repo
 
 - NOTE: this can cause the website to be down for some time while it's updating
+
+- If the website isn't deploying to `transpile-ai.com`, check that the CNAME file is in the root directory on the `gh-pages` branch

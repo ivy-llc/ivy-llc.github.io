@@ -38,6 +38,7 @@ body {
     background: none;
     font-size: 18px;
     cursor: pointer;
+    color: white;
 }
 
 .nav.bar .title-button {
