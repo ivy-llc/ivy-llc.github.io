@@ -1,7 +1,9 @@
+'use client'
+
 import React from 'react'
 import { useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
-import './Transpilation1.css'
+import '../styles/Transpilation1.css'
 import torchLogo from '../assets/torch-logo.png'
 import tfLogo from '../assets/tf-logo.png'
 import ivyTranspile from '../assets/ivy-transpile.png'

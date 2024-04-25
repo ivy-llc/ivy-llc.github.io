@@ -1,5 +1,5 @@
 import React from 'react'
-import './SocialHandles.css'
+import '../styles/SocialHandles.css'
 import githubLogo from '../assets/github.svg'
 import discordLogo from '../assets/discord.svg'
 import linkedinLogo from '../assets/linkedin.svg'

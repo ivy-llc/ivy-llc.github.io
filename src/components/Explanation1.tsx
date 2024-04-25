@@ -1,5 +1,5 @@
 import React from 'react'
-import './Explanation1.css'
+import '../styles/Explanation1.css'
 
 function Explanation1() {
     return (

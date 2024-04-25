@@ -1,5 +1,5 @@
 import React from 'react'
-import './SupportedFrameworks.css'
+import '../styles/SupportedFrameworks.css'
 import jaxLogo from '../assets/jax-logo.png'
 import numpyLogo from '../assets/numpy-logo.png'
 import mlxLogo from '../assets/mlx-logo.png'

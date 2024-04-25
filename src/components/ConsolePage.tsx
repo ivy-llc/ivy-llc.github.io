@@ -1,5 +1,7 @@
 import React from 'react'
-import './ConsolePage.css'
+import '../styles/App.css'
+import '../styles/index.css'
+import '../styles/LandingPage.css'
 import NavBar from './NavBar'
 import SocialHandles from './SocialHandles'
 
