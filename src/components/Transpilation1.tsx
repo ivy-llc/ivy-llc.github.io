@@ -16,19 +16,19 @@ function Transpilation1() {
     return (
         <div>
             <div className="transpilation">
-                <img src={ivyTranspile} className="ivy-transpile" alt="ivy.transpile" />
+                <img src={ivyTranspile.src} className="ivy-transpile" alt="ivy.transpile" />
             </div>
             <div>
-                <img src={arrow} className="arrow" alt="arrow" />
+                <img src={arrow.src} className="arrow" alt="arrow" />
             </div>
             <div className="transpilation-container">
                 <div className="transpilation-item">
-                    <img src={torchLogo} className="framework-logo" alt="PyTorch" title="PyTorch" />
-                    <img src={torchModel} className="torch-model" alt="PyTorch Model" title="PyTorch Model" />
+                    <img src={torchLogo.src} className="framework-logo" alt="PyTorch" title="PyTorch" />
+                    <img src={torchModel.src} className="torch-model" alt="PyTorch Model" title="PyTorch Model" />
                 </div>
                 <div className="transpilation-item">
-                    <img src={tfLogo} className="framework-logo" alt="TensorFlow" title="TensorFlow" />
-                    <img src={tfModel} className="tf-model" alt="Transpiled TensorFlow Model" title="Transpiled TensorFlow Model" />
+                    <img src={tfLogo.src} className="framework-logo" alt="TensorFlow" title="TensorFlow" />
+                    <img src={tfModel.src} className="tf-model" alt="Transpiled TensorFlow Model" title="Transpiled TensorFlow Model" />
                 </div>
             </div>
             {/* <button className="deep-dive-button" onClick={() => setShowExplanation(!showExplanation)}>

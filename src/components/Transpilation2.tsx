@@ -15,17 +15,17 @@ function Transpilation2() {
         <div>
             <div className="transpilation-step">
                 <h3>Define a <span style={{ color: '#ef4b28' }}>PyTorch</span> model</h3>
-                <img src={torchModel} className="torch-model" alt="PyTorch model" />
+                <img src={torchModel.src} className="torch-model" alt="PyTorch model" />
             </div>
             <div className="transpilation-step">
                 {/* ivy color: #08bc2c */}
                 <h3>Transpile to <span style={{ color: '#ff8105' }}>TensorFlow</span></h3>
-                <img src={ivyTranspile} className="ivy-transpile" alt="ivy.transpile" />
+                <img src={ivyTranspile.src} className="ivy-transpile" alt="ivy.transpile" />
             </div>
             <div className="transpilation-step">
                 <h3>Use in the new framework</h3>
-                <img src={torchTranslate} className="torch-translate" alt="" />
-                <img src={tfTranslate} className="torch-translate" alt="" />
+                <img src={torchTranslate.src} className="torch-translate" alt="" />
+                <img src={tfTranslate.src} className="torch-translate" alt="" />
             </div>
             {/* <button className="deep-dive-button" onClick={() => setShowExplanation(!showExplanation)}>
                 {showExplanation ? 'Deep Dive -' : 'Deep Dive +'}
