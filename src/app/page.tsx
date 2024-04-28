@@ -1,12 +1,18 @@
 import React from 'react'
-import './LandingPage.css'
-import NavBar from './NavBar'
-import SocialHandles from './SocialHandles'
-import SupportedFrameworks from './SupportedFrameworks'
-import Transpilation1 from './Transpilation1'
-import Transpilation2 from './Transpilation2'
+import '../styles/App.css'
+import '../styles/index.css'
+import '../styles/LandingPage.css'
+import NavBar from '../components/NavBar'
+import SocialHandles from '../components/SocialHandles'
+import SupportedFrameworks from '../components/SupportedFrameworks'
+import Transpilation1 from '../components/Transpilation1'
+import Transpilation2 from '../components/Transpilation2'
 
-function LandingPage() {
+// export function generateStaticParams() {
+//     return [{ slug: [''] }]
+// }
+
+export default function Home() {
     return (
         <>
             <NavBar />
@@ -35,7 +41,5 @@ function LandingPage() {
             {/* <h1>Get Started</h1> */}
             <SocialHandles />
         </>
-    )
+    );
 }
-
-export default LandingPage

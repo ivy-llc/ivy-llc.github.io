@@ -1,16 +1,14 @@
 import React from 'react'
-import './NavBar.css'
-import { useNavigate } from 'react-router-dom';
+import '../styles/NavBar.css'
+import Link from 'next/link'
 
 
 function NavBar() {
-    const navigate = useNavigate();
-
     return (
         <nav className="nav bar">
             <ul className="title-logo">
                 <li>
-                    <button onClick={() => navigate("/")} className="title-button">Transpile AI</button>
+                    <Link href="/" className="title-button">Transpile AI</Link>
                 </li>
             </ul>
             <ul className="page-links">
@@ -24,7 +22,7 @@ function NavBar() {
                     <a href="https://github.com/unifyai/ivy">Ivy on GitHub</a>
                 </li>
                 <li>
-                    <button onClick={() => navigate("/contact")}>Contact</button>
+                    <Link href="/contact">Contact</Link>
                 </li>
             </ul>
         </nav>

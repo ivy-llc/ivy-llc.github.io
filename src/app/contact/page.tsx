@@ -1,9 +1,11 @@
 import React from 'react'
-import './ContactPage.css'
-import NavBar from './NavBar';
-import SocialHandles from './SocialHandles'
+import '../../styles/App.css'
+import '../../styles/index.css'
+import '../../styles/LandingPage.css'
+import NavBar from '../../components/NavBar';
+import SocialHandles from '../../components/SocialHandles'
 
-function ContactPage() {
+export default function Contact() {
     return (
         <>
             <NavBar />
@@ -16,5 +18,3 @@ function ContactPage() {
         </>
     );
 }
-
-export default ContactPage;

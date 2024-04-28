@@ -1,19 +1,19 @@
 # Transpile AI Website
 
+Next.js website hosted on https://transpile-ai.com/ via GitHub pages
+
 ### Dev Environment:
 
 1. Install node.js
 
 2. `npm install` to install the necessary packages
 
-3. `npm start` to run the website on localhost
+3. `npm run dev` to run the website on localhost
 
 ### Deployment:
 
-- To deploy the app to GitHub pages, run `npm run deploy`
+- To deploy the app to GitHub pages (where we're hosting transpile-ai.com), run `npm run deploy` in your local terminal
 
 - This makes an automatic build commit to the `gh-pages` branch of this repo
 
-- NOTE: this can cause the website to be down for some time while it's updating
-
-- If the website isn't deploying to `transpile-ai.com`, check that the CNAME file is in the root directory on the `gh-pages` branch
+- After the deployment actions have finished on the commit, check the website is up and running correctly at transpile-ai.com :)

@@ -1,5 +1,5 @@
 import React from 'react'
-import './SupportedFrameworks.css'
+import '../styles/SupportedFrameworks.css'
 import jaxLogo from '../assets/jax-logo.png'
 import numpyLogo from '../assets/numpy-logo.png'
 import mlxLogo from '../assets/mlx-logo.png'
@@ -10,19 +10,19 @@ function SupportedFrameworks() {
     return (
         <div className="supported-frameworks">
             <a href="https://pytorch.org/" target="_blank" rel="noopener noreferrer">
-                <img src={torchLogo} alt="PyTorch" className="torch-logo" />
+                <img src={torchLogo.src} alt="PyTorch" className="torch-logo" />
             </a>
             <a href="https://www.tensorflow.org/" target="_blank" rel="noopener noreferrer">
-                <img src={tfLogo} alt="TensorFlow" className="tf-logo" />
+                <img src={tfLogo.src} alt="TensorFlow" className="tf-logo" />
             </a>
             <a href="https://jax.readthedocs.io/en/latest/notebooks/quickstart.html" target="_blank" rel="noopener noreferrer">
-                <img src={jaxLogo} alt="JAX" className="jax-logo" />
+                <img src={jaxLogo.src} alt="JAX" className="jax-logo" />
             </a>
             <a href="https://github.com/ml-explore/mlx" target="_blank" rel="noopener noreferrer">
-                <img src={mlxLogo} alt="MLX" className="mlx-logo" />
+                <img src={mlxLogo.src} alt="MLX" className="mlx-logo" />
             </a>
             <a href="https://numpy.org/" target="_blank" rel="noopener noreferrer">
-                <img src={numpyLogo} alt="Numpy" className="numpy-logo" />
+                <img src={numpyLogo.src} alt="Numpy" className="numpy-logo" />
             </a>
         </div>
     );
