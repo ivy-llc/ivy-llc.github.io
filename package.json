@@ -6,7 +6,7 @@
     "type": "module",
     "scripts": {
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "deploy": "gh-pages -d build --nojekyll",
         "dev": "next dev",
         "build": "next build && echo 'transpile-ai.com' > build/CNAME",
         "start": "next start"
