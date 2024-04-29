@@ -4,11 +4,11 @@ import React from 'react'
 import { useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import '../styles/Transpilation2.css'
-import ivyTranspile from '../assets/tf-translate.png'
-import torchModel from '../assets/torch1.png'
+import ivyTranspile from 'src/assets/tf-translate.png'
+import torchModel from 'src/assets/torch1.png'
 import Explanation1 from './Explanation1'
-import torchTranslate from '../assets/torch-330-110.png'
-import tfTranslate from '../assets/tf-330-110.png'
+import torchTranslate from 'src/assets/torch-330-110.png'
+import tfTranslate from 'src/assets/tf-330-110.png'
 
 function Transpilation2() {
     const [showExplanation] = useState<boolean>(false);  // setShowExplanation
