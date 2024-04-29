@@ -4,12 +4,12 @@ import React from 'react'
 import { useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import '../styles/Transpilation1.css'
-import torchLogo from '../assets/torch-logo.png'
-import tfLogo from '../assets/tf-logo.png'
-import ivyTranspile from '../assets/ivy-transpile.png'
-import arrow from '../assets/curved-arrow-dark-gray.png'
-import torchModel from '../assets/torch1.png'
-import tfModel from '../assets/translated-tf1.png'
+import torchLogo from 'src/assets/torch-logo.png'
+import tfLogo from 'src/assets/tf-logo.png'
+import ivyTranspile from 'src/assets/ivy-transpile.png'
+import arrow from 'src/assets/curved-arrow-dark-gray.png'
+import torchModel from 'src/assets/torch1.png'
+import tfModel from 'src/assets/translated-tf1.png'
 import Explanation1 from './Explanation1'
 
 function Transpilation1() {

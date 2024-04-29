@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/SupportedFrameworks.css'
-import jaxLogo from '../assets/jax-logo.png'
-import numpyLogo from '../assets/numpy-logo.png'
-import mlxLogo from '../assets/mlx-logo.png'
-import torchLogo from '../assets/torch-full-logo.png'
-import tfLogo from '../assets/tf-full-logo.png'
+import jaxLogo from 'src/assets/jax-logo.png'
+import numpyLogo from 'src/assets/numpy-logo.png'
+import mlxLogo from 'src/assets/mlx-logo.png'
+import torchLogo from 'src/assets/torch-full-logo.png'
+import tfLogo from 'src/assets/tf-full-logo.png'
 
 function SupportedFrameworks() {
     return (
