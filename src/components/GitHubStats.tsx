@@ -53,6 +53,12 @@ function GitHubStats() {
 
     const [stars, setStars] = useState(14012);
     const [forks, setForks] = useState(5868);
+    const contributors = 1402;
+
+    // convert to formatted strings
+    const starsString = stars.toLocaleString();
+    const forksString = forks.toLocaleString();
+    const contributorsString = contributors.toLocaleString();
 
     useEffect(() => {
         const data = fetchRepoData();
@@ -62,20 +68,38 @@ function GitHubStats() {
         });
     }, []);
 
+    const { ref, inView } = useInView({
+        threshold: 0.5,
+        triggerOnce: true,
+    });
+
+    const typedClass1 = inView ? 'typed1' : 'hidden';
+    const typedClass2 = inView ? 'typed2' : 'hidden';
+    const typedClass3 = inView ? 'typed3' : 'hidden';
+    console.log(typedClass1)
+    console.log(typedClass2)
+    console.log(typedClass3)
+
     // hardcoded contributors for the moment
     return (
         <div className="github-stats">
             <div className="gh-stat">
                 <img src={starLogo.src} className="gh-star" alt="GitHub Star" />
-                <h2 className="gh-stat-title">{stars} Stars</h2>
-            </div>
-            <div className="gh-stat">
-                <img src={prLogo.src} className="gh-pr" alt="GitHub PR" />
-                <h2 className="gh-stat-title">1402 Contributors</h2>
+                <div className="stat-container">
+                    <h2 className={`gh-stat-title ${typedClass1}`} ref={ref}>{starsString} <span className="normal-weight">GitHub Stars</span></h2>
+                </div>
             </div>
             <div className="gh-stat">
                 <img src={forkLogo.src} className="gh-fork" alt="GitHub Fork" />
-                <h2 className="gh-stat-title">{forks} Forks</h2>
+                <div className="stat-container">
+                    <h2 className={`gh-stat-title ${typedClass2}`}>{forksString} <span className="normal-weight">GitHub Forks</span></h2>
+                </div>
+            </div>
+            <div className="gh-stat">
+                <img src={prLogo.src} className="gh-pr" alt="GitHub PR" />
+                <div className="stat-container">
+                    <h2 className={`gh-stat-title ${typedClass3}`}>{contributorsString} <span className="normal-weight">Contributors</span></h2>
+                </div>
             </div>
         </div>
     );
