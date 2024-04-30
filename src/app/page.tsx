@@ -51,7 +51,7 @@ export default function Home() {
                 </p>
                 <p>
                     The Transpile AI Discord server is the perfect place to ask questions about Ivy, get ideas for how to contribute,<br />
-                    and get help from fellow developers and the <strong>Transpile</strong> team. We're looking forward to working with you!
+                    and get help from fellow developers and the <strong>Transpile</strong> team. We&apos;re looking forward to working with you!
                 </p>
                 <GitHubStats />
                 <SocialHandles />
