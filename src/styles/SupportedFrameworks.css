@@ -43,22 +43,3 @@
     margin-left: 35px;
     margin-right: 35px;
 }
-
-.fade-in {
-    animation: fadeIn 2s ease-in-out;
-}
-
-.hidden {
-    opacity: 0;
-    visibility: hidden;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}

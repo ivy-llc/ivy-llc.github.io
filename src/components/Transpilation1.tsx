@@ -1,7 +1,7 @@
 'use client'
 
-import React from 'react'
-import { useState } from 'react';
+import React, { useState } from 'react'
+import { useInView } from "react-intersection-observer";
 import { CSSTransition } from 'react-transition-group';
 import 'src/styles/Transpilation1.css'
 import torchLogo from 'src/assets/torch-logo.png'
@@ -15,8 +15,15 @@ import Explanation1 from './Explanation1'
 function Transpilation1() {
     const [showExplanation] = useState<boolean>(false);  // setShowExplanation
 
+    const { ref, inView } = useInView({
+        threshold: 0.2,
+        triggerOnce: true,
+    });
+
+    const fadeInClass = inView ? 'fade-in' : 'hidden';
+
     return (
-        <div>
+        <div className={`${fadeInClass}`} ref={ref} >
             <div className="transpilation">
                 <img src={ivyTranspile.src} className="ivy-transpile" alt="ivy.transpile" />
             </div>

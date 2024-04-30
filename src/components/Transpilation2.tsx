@@ -1,7 +1,7 @@
 'use client'
 
-import React from 'react'
-import { useState } from 'react';
+import React, { useState } from 'react'
+import { useInView } from "react-intersection-observer";
 import { CSSTransition } from 'react-transition-group';
 import 'src/styles/Transpilation2.css'
 import ivyTranspile from 'src/assets/tf-translate.png'
@@ -13,18 +13,37 @@ import tfTranslate from 'src/assets/tf-330-110.png'
 function Transpilation2() {
     const [showExplanation] = useState<boolean>(false);  // setShowExplanation
 
+    const { ref: ref_torch, inView: inViewTorch } = useInView({
+        threshold: 0.25,
+        triggerOnce: true,
+    });
+
+    const { ref: ref_tf, inView: inViewTF } = useInView({
+        threshold: 0.5,
+        triggerOnce: true,
+    });
+
+    const { ref: ref_final, inView: inViewFinal } = useInView({
+        threshold: 0.5,
+        triggerOnce: true,
+    });
+
+    const fadeInClassTorch = inViewTorch ? 'fade-in' : 'hidden';
+    const fadeInClassTF = inViewTF ? 'fade-in' : 'hidden';
+    const fadeInClassFinal = inViewFinal ? 'fade-in' : 'hidden';
+
     return (
         <div>
-            <div className="transpilation-step">
+            <div className={`transpilation-step ${fadeInClassTorch}`} ref={ref_torch} >
                 <h3>Define a <span style={{ color: '#ef4b28' }}>PyTorch</span> model</h3>
                 <img src={torchModel.src} className="torch-model" alt="PyTorch model" />
             </div>
-            <div className="transpilation-step">
+            <div className={`transpilation-step ${fadeInClassTF}`} ref={ref_tf}>
                 {/* ivy color: #08bc2c */}
                 <h3>Transpile to <span style={{ color: '#ff8105' }}>TensorFlow</span></h3>
                 <img src={ivyTranspile.src} className="ivy-transpile" alt="ivy.transpile" />
             </div>
-            <div className="transpilation-step">
+            <div className={`transpilation-step ${fadeInClassFinal}`} ref={ref_final}>
                 <h3>Use in the new framework</h3>
                 <img src={torchTranslate.src} className="torch-translate" alt="" />
                 <img src={tfTranslate.src} className="torch-translate" alt="" />
