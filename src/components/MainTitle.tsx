@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/NavBar.css'
 import ivyLogo from 'src/assets/ivy-logo-dark.png'
 
 

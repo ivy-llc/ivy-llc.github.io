@@ -4,14 +4,13 @@ body {
 
 .social.nav {
     background-color: inherit;
-    color: white;
+    color: #fdfdfd;
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 2rem;
-    padding: 0 1rem;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 .social.nav ul {
@@ -31,15 +30,17 @@ body {
     padding: .25rem;
 }
 
-.social.nav img {
-    width: 40px;
-    height: auto;
+.social-logo {
+    height: 35px;
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-.social.nav li {
+/* .social.nav li {
     filter: drop-shadow(0 0 .1rem #000000de);
-}
+} */
 
-.social.nav li:hover {
-    filter: drop-shadow(0 0 .3rem #000000de);
-}
+/* .social.nav li:hover {
+    filter: drop-shadow(0 0 .1rem #000000de);
+} */

@@ -1,6 +1,6 @@
-import '../../styles/App.css'
-import '../../styles/index.css'
-import '../../styles/LandingPage.css'
+import 'src/styles/App.css'
+import 'src/styles/index.css'
+import 'src/styles/LandingPage.css'
 import NavBar from '../../components/NavBar'
 import SocialHandles from '../../components/SocialHandles'
 

@@ -3,7 +3,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
-import '../styles/Transpilation2.css'
+import 'src/styles/Transpilation2.css'
 import ivyTranspile from 'src/assets/tf-translate.png'
 import torchModel from 'src/assets/torch1.png'
 import Explanation1 from './Explanation1'

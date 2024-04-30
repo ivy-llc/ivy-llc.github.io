@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/NavBar.css'
+import 'src/styles/NavBar.css'
 import Link from 'next/link'
 
 

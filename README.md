@@ -8,7 +8,9 @@ Next.js website hosted on https://transpile-ai.com/ via GitHub pages
 
 2. `npm install` to install the necessary packages
 
-3. `npm run dev` to run the website on localhost
+3. `npm run build`
+
+4. `npm run dev` to run the website on localhost
 
 ### Deployment:
 

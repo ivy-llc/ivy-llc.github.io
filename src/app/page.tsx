@@ -1,7 +1,8 @@
 import React from 'react'
-import '../styles/App.css'
-import '../styles/index.css'
-import '../styles/LandingPage.css'
+import 'src/styles/App.css'
+import 'src/styles/index.css'
+import 'src/styles/LandingPage.css'
+import GitHubStats from 'src/components/GitHubStats'
 import MainTitle from 'src/components/MainTitle'
 import NavBar from '../components/NavBar'
 import SocialHandles from '../components/SocialHandles'
@@ -18,7 +19,6 @@ export default function Home() {
         <>
             <NavBar />
             <MainTitle />
-            {/* video link: https://dl.dropboxusercontent.com/scl/fi/0k6jvh4iwetaoznc91eue/Ivy_hero_animation_18bg.mp4?rlkey=be89qp8xcycvr1ddvyk4un5yl&dl=0 */}
             <div className="one-line-div">
                 <h1 className="main-heading">One-Line Conversion</h1>
                 <p className="ivy-intro">
@@ -43,12 +43,24 @@ export default function Home() {
                 </p>
                 <Transpilation1 />
             </div>
+            <div className="community-div">
+                <h1 className="sub-heading">Join Our Community</h1>
+                <p>
+                    Join our growing community on a mission to make conversions between frameworks simple and accessible to all!<br />
+                    We welcome open-source contributions to Ivy in the form of <strong>Pull Requests</strong> and <strong>Issues</strong> on our GitHub repository.
+                </p>
+                <p>
+                    The Transpile AI Discord server is the perfect place to ask questions about Ivy, get ideas for how to contribute,<br />
+                    and get help from fellow developers and the <strong>Transpile</strong> team. We're looking forward to working with you!
+                </p>
+                <GitHubStats />
+                <SocialHandles />
+            </div>
             {/* <h1 className="sub-heading">Elite Performance</h1>
             <p className="ivy-intro">
                 Maintaining the performance of models that have been transpiled to new frameworks is a top priority for us.
             </p> */}
             {/* <h1>Get Started</h1> */}
-            <SocialHandles />
         </>
     );
 }

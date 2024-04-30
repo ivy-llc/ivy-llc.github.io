@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { useInView } from "react-intersection-observer";
-import '../styles/SupportedFrameworks.css'
+import 'src/styles/SupportedFrameworks.css'
 import jaxLogo from 'src/assets/jax-logo.png'
 import numpyLogo from 'src/assets/numpy-logo.png'
 import mlxLogo from 'src/assets/mlx-logo.png'
