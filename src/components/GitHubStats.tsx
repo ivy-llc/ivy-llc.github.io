@@ -76,9 +76,6 @@ function GitHubStats() {
     const typedClass1 = inView ? 'typed1' : 'hidden';
     const typedClass2 = inView ? 'typed2' : 'hidden';
     const typedClass3 = inView ? 'typed3' : 'hidden';
-    console.log(typedClass1)
-    console.log(typedClass2)
-    console.log(typedClass3)
 
     // hardcoded contributors for the moment
     return (
