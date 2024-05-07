@@ -1,5 +1,5 @@
-import React from 'react'
-import 'src/styles/Explanation1.css'
+import React from 'react';
+import 'src/styles/Explanation1.css';
 
 function Explanation1() {
     return (

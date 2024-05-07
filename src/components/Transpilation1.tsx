@@ -1,16 +1,16 @@
-'use client'
+'use client';
 
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { useInView } from "react-intersection-observer";
 import { CSSTransition } from 'react-transition-group';
-import 'src/styles/Transpilation1.css'
-import torchLogo from 'src/assets/torch-logo.png'
-import tfLogo from 'src/assets/tf-logo.png'
-import ivyTranspile from 'src/assets/ivy-transpile.png'
-import arrow from 'src/assets/curved-arrow-dark-gray.png'
-import torchModel from 'src/assets/torch1.png'
-import tfModel from 'src/assets/translated-tf1.png'
-import Explanation1 from './Explanation1'
+import 'src/styles/Transpilation1.css';
+import torchLogo from 'src/assets/torch-logo.png';
+import tfLogo from 'src/assets/tf-logo.png';
+import ivyTranspile from 'src/assets/ivy-transpile.png';
+import arrow from 'src/assets/curved-arrow-dark-gray.png';
+import torchModel from 'src/assets/torch1.png';
+import tfModel from 'src/assets/translated-tf1.png';
+import Explanation1 from 'src/components/Explanation1';
 
 function Transpilation1() {
     const [showExplanation] = useState<boolean>(false);  // setShowExplanation

@@ -1,13 +1,13 @@
-'use client'
+'use client';
 
 import React from 'react';
 import { useInView } from "react-intersection-observer";
-import 'src/styles/SupportedFrameworks.css'
-import jaxLogo from 'src/assets/jax-logo.png'
-import numpyLogo from 'src/assets/numpy-logo.png'
-import mlxLogo from 'src/assets/mlx-logo.png'
-import torchLogo from 'src/assets/torch-full-logo.png'
-import tfLogo from 'src/assets/tf-full-logo.png'
+import 'src/styles/SupportedFrameworks.css';
+import jaxLogo from 'src/assets/jax-logo.png';
+import numpyLogo from 'src/assets/numpy-logo.png';
+import mlxLogo from 'src/assets/mlx-logo.png';
+import torchLogo from 'src/assets/torch-full-logo.png';
+import tfLogo from 'src/assets/tf-full-logo.png';
 
 function SupportedFrameworks() {
     const { ref, inView } = useInView({

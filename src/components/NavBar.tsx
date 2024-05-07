@@ -1,6 +1,6 @@
-import React from 'react'
-import 'src/styles/NavBar.css'
-import Link from 'next/link'
+import React from 'react';
+import 'src/styles/NavBar.css';
+import Link from 'next/link';
 
 
 function NavBar() {

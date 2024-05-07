@@ -1,14 +1,14 @@
-import React from 'react'
-import 'src/styles/App.css'
-import 'src/styles/index.css'
-import 'src/styles/LandingPage.css'
-import GitHubStats from 'src/components/GitHubStats'
-import MainTitle from 'src/components/MainTitle'
-import NavBar from '../components/NavBar'
-import SocialHandles from '../components/SocialHandles'
-import SupportedFrameworks from '../components/SupportedFrameworks'
-import Transpilation1 from '../components/Transpilation1'
-import Transpilation2 from '../components/Transpilation2'
+import React from 'react';
+import 'src/styles/App.css';
+import 'src/styles/index.css';
+import 'src/styles/LandingPage.css';
+import GitHubStats from 'src/components/GitHubStats';
+import MainTitle from 'src/components/MainTitle';
+import NavBar from 'src/components/NavBar';
+import SocialHandles from 'src/components/SocialHandles';
+import SupportedFrameworks from 'src/components/SupportedFrameworks';
+import Transpilation1 from 'src/components/Transpilation1';
+import Transpilation2 from 'src/components/Transpilation2';
 
 // export function generateStaticParams() {
 //     return [{ slug: [''] }]

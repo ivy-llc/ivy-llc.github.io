@@ -1,12 +1,12 @@
-'use client'
+'use client';
 
 import { useInView } from "react-intersection-observer";
 import React, { useState, useEffect } from 'react';
 import { Octokit } from 'octokit';
-import 'src/styles/GitHubStats.css'
-import forkLogo from 'src/assets/fork.png'
-import prLogo from 'src/assets/PR.svg'
-import starLogo from 'src/assets/star.png'
+import 'src/styles/GitHubStats.css';
+import forkLogo from 'src/assets/fork.png';
+import prLogo from 'src/assets/PR.svg';
+import starLogo from 'src/assets/star.png';
 
 function GitHubStats() {
     const octokit = new Octokit({})
