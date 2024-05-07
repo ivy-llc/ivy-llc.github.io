@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import React from 'react';
-import 'src/styles/App.css';
-import 'src/styles/index.css';
-import 'src/styles/LandingPage.css';
-import NavBar from 'src/components/NavBar';
-import SocialHandles from 'src/components/SocialHandles';
+import React from "react";
+import "src/styles/App.css";
+import "src/styles/index.css";
+import "src/styles/LandingPage.css";
+import NavBar from "src/components/NavBar";
+import SocialHandles from "src/components/SocialHandles";
 
 export default function Error() {
     return (

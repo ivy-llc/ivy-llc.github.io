@@ -1,23 +1,23 @@
-'use client';
+"use client";
 
 import { useInView } from "react-intersection-observer";
-import React, { useState, useEffect } from 'react';
-import { Octokit } from 'octokit';
-import 'src/styles/GitHubStats.css';
-import forkLogo from 'src/assets/fork.png';
-import prLogo from 'src/assets/PR.svg';
-import starLogo from 'src/assets/star.png';
+import React, { useState, useEffect } from "react";
+import { Octokit } from "octokit";
+import "src/styles/GitHubStats.css";
+import forkLogo from "src/assets/fork.png";
+import prLogo from "src/assets/PR.svg";
+import starLogo from "src/assets/star.png";
 
 function GitHubStats() {
     const octokit = new Octokit({})
 
     async function fetchRepoData() {
         try {
-            const response = await octokit.request('GET /repos/unifyai/ivy', {
-                owner: 'unifyai',
-                repo: 'ivy',
+            const response = await octokit.request("GET /repos/unifyai/ivy", {
+                owner: "unifyai",
+                repo: "ivy",
                 headers: {
-                    'X-GitHub-Api-Version': '2022-11-28'
+                    "X-GitHub-Api-Version": "2022-11-28"
                 },
             })
             return response.data;
@@ -31,11 +31,11 @@ function GitHubStats() {
 
     async function fetchContributorsData() {
         try {
-            const response = await octokit.request('GET /repos/unifyai/ivy/contributors?per_page=1&anon=true', {
-                owner: 'unifyai',
-                repo: 'ivy',
+            const response = await octokit.request("GET /repos/unifyai/ivy/contributors?per_page=1&anon=true", {
+                owner: "unifyai",
+                repo: "ivy",
                 headers: {
-                    'X-GitHub-Api-Version': '2022-11-28'
+                    "X-GitHub-Api-Version": "2022-11-28"
                 },
             })
             // can potentially parse the num contributors from the link, something like this:
@@ -73,9 +73,9 @@ function GitHubStats() {
         triggerOnce: true,
     });
 
-    const typedClass1 = inView ? 'typed1' : 'hidden';
-    const typedClass2 = inView ? 'typed2' : 'hidden';
-    const typedClass3 = inView ? 'typed3' : 'hidden';
+    const typedClass1 = inView ? "typed1" : "hidden";
+    const typedClass2 = inView ? "typed2" : "hidden";
+    const typedClass3 = inView ? "typed3" : "hidden";
 
     // hardcoded contributors for the moment
     return (

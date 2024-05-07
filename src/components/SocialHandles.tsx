@@ -1,8 +1,8 @@
-import React from 'react';
-import 'src/styles/SocialHandles.css';
-import githubLogo from 'src/assets/github-logo.png';
-import discordLogo from 'src/assets/discord-logo.png';
-import linkedinLogo from 'src/assets/linkedin-logo.png';
+import React from "react";
+import "src/styles/SocialHandles.css";
+import githubLogo from "src/assets/github-logo.png";
+import discordLogo from "src/assets/discord-logo.png";
+import linkedinLogo from "src/assets/linkedin-logo.png";
 
 function SocialHandles() {
     return (

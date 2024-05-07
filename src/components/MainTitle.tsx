@@ -1,5 +1,5 @@
-import React from 'react';
-import ivyLogo from 'src/assets/ivy-logo-dark.png';
+import React from "react";
+import ivyLogo from "src/assets/ivy-logo-dark.png";
 
 
 function MainTitle() {

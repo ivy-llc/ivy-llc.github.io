@@ -1,14 +1,14 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { useInView } from "react-intersection-observer";
-import { CSSTransition } from 'react-transition-group';
-import 'src/styles/Transpilation2.css';
-import ivyTranspile from 'src/assets/tf-translate.png';
-import torchModel from 'src/assets/torch1.png';
-import Explanation1 from 'src/components/Explanation1';
-import torchTranslate from 'src/assets/torch-330-110.png';
-import tfTranslate from 'src/assets/tf-330-110.png';
+import { CSSTransition } from "react-transition-group";
+import "src/styles/Transpilation2.css";
+import ivyTranspile from "src/assets/tf-translate.png";
+import torchModel from "src/assets/torch1.png";
+import Explanation1 from "src/components/Explanation1";
+import torchTranslate from "src/assets/torch-330-110.png";
+import tfTranslate from "src/assets/tf-330-110.png";
 
 function Transpilation2() {
     const [showExplanation] = useState<boolean>(false);  // setShowExplanation
@@ -28,19 +28,19 @@ function Transpilation2() {
         triggerOnce: true,
     });
 
-    const fadeInClassTorch = inViewTorch ? 'fade-in' : 'hidden';
-    const fadeInClassTF = inViewTF ? 'fade-in' : 'hidden';
-    const fadeInClassFinal = inViewFinal ? 'fade-in' : 'hidden';
+    const fadeInClassTorch = inViewTorch ? "fade-in" : "hidden";
+    const fadeInClassTF = inViewTF ? "fade-in" : "hidden";
+    const fadeInClassFinal = inViewFinal ? "fade-in" : "hidden";
 
     return (
         <div>
             <div className={`transpilation-step ${fadeInClassTorch}`} ref={ref_torch} >
-                <h3>Define a <span style={{ color: '#ef4b28' }}>PyTorch</span> model</h3>
+                <h3>Define a <span style={{ color: "#ef4b28" }}>PyTorch</span> model</h3>
                 <img src={torchModel.src} className="torch-model" alt="PyTorch model" />
             </div>
             <div className={`transpilation-step ${fadeInClassTF}`} ref={ref_tf}>
                 {/* ivy color: #08bc2c */}
-                <h3>Transpile to <span style={{ color: '#ff8105' }}>TensorFlow</span></h3>
+                <h3>Transpile to <span style={{ color: "#ff8105" }}>TensorFlow</span></h3>
                 <img src={ivyTranspile.src} className="ivy-transpile" alt="ivy.transpile" />
             </div>
             <div className={`transpilation-step ${fadeInClassFinal}`} ref={ref_final}>
@@ -49,7 +49,7 @@ function Transpilation2() {
                 <img src={tfTranslate.src} className="torch-translate" alt="" />
             </div>
             {/* <button className="deep-dive-button" onClick={() => setShowExplanation(!showExplanation)}>
-                {showExplanation ? 'Deep Dive -' : 'Deep Dive +'}
+                {showExplanation ? "Deep Dive -" : "Deep Dive +"}
             </button> */}
             <CSSTransition
                 in={showExplanation}
