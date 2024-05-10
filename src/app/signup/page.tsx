@@ -20,7 +20,9 @@ export default function Signup() {
     return (
         <>
             <NavBar />
-            <h1>Sign Up</h1>
+            <h1>Page not found</h1>
+            <h3>The page you are looking for doesn&apos;t exist or has been moved</h3>
+            {/* <h1>Sign Up</h1>
             <form onSubmit={handleSubmit} className="login-form">
                 <label>
                     Email:
@@ -31,7 +33,7 @@ export default function Signup() {
                     <input className="input-field" type="password" value={password} onChange={e => setPassword(e.target.value)} required />
                 </label>
                 <input className="login-button" type="submit" value="Sign Up" />
-            </form>
+            </form> */}
             <SocialHandles />
         </>
     );
