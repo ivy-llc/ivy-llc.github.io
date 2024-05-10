@@ -10,7 +10,7 @@ function MainTitle() {
             <video poster="" id="video1" width="100%" height="100%" autoPlay loop muted>
                 <source src="https://dl.dropboxusercontent.com/scl/fi/0k6jvh4iwetaoznc91eue/Ivy_hero_animation_18bg.mp4?rlkey=be89qp8xcycvr1ddvyk4un5yl&dl=0" type="video/mp4" />
             </video>
-            <video id="video-mob" width="100%" height="100%" autoPlay loop muted playsInline onPlaying="this.controls=false">
+            <video id="video-mob" width="100%" height="100%" autoPlay loop muted playsInline>
                 <source src="https://dl.dropboxusercontent.com/scl/fi/dj6kikmu3lcriajuq18uq/Ivy_mobile_04bg.mp4?rlkey=m9mg2ff55zdj3g3x5qf21hgvi&dl=0" type="video/mp4" />
             </video>
             <p className="main-title-pip">pip install ivy</p>
