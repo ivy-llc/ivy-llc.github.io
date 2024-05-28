@@ -1,6 +1,6 @@
 # Transpile AI Website
 
-Next.js website hosted on https://transpile-ai.com/ via GitHub pages
+Next.js website hosted on https://ivy.dev/ via GitHub pages
 
 ### Dev Environment:
 
@@ -14,8 +14,8 @@ Next.js website hosted on https://transpile-ai.com/ via GitHub pages
 
 ### Deployment:
 
-- To deploy the app to GitHub pages (where we're hosting transpile-ai.com), run `npm run deploy` in your local terminal
+- To deploy the app to GitHub pages (where we're hosting ivy.dev), run `npm run deploy` in your local terminal
 
 - This makes an automatic build commit to the `gh-pages` branch of this repo
 
-- After the deployment actions have finished on the commit, check the website is up and running correctly at transpile-ai.com :)
+- After the deployment actions have finished on the commit, check the website is up and running correctly at ivy.dev :)

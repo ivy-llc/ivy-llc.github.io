@@ -2,13 +2,13 @@
     "name": "transpile-website",
     "private": true,
     "version": "0.0.0",
-    "homepage": "http://transpile-ai.com/",
+    "homepage": "http://ivy.dev/",
     "type": "module",
     "scripts": {
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build --nojekyll",
         "dev": "next dev",
-        "build": "next build && echo 'transpile-ai.com' > build/CNAME",
+        "build": "next build && echo 'ivy.dev' > build/CNAME",
         "start": "next start"
     },
     "dependencies": {
