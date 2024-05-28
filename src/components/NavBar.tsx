@@ -13,13 +13,13 @@ function NavBar() {
             </ul>
             <ul className="page-links">
                 <li>
-                    <a href="https://unify.ai/docs/ivy/">Ivy Docs</a>
+                    <a href="https://ivy.dev/docs/ivy/">Ivy Docs</a>
                 </li>
                 {/* <li>
                     <button onClick={() => navigate("/console")}>Console</button>
                 </li> */}
                 <li>
-                    <a href="https://github.com/unifyai/ivy">Ivy on GitHub</a>
+                    <a href="https://github.com/Transpile-AI/ivy">Ivy on GitHub</a>
                 </li>
                 <li>
                     <Link href="/contact">Contact</Link>
