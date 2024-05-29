@@ -1,28 +1,28 @@
 import React from "react";
-import "src/styles/NavBar.css";
 import Link from "next/link";
+import "src/styles/NavBar.css";
+import ivyLogo from "src/assets/ivy-logo.png";
 
 
 function NavBar() {
     return (
         <nav className="nav bar">
-            <ul className="title-logo">
+            <ul>
                 <li>
-                    <Link href="/" className="title-button">Transpile AI</Link>
+                    <Link href="/" className="title-button">
+                        <img src={ivyLogo.src} className="title-logo" alt="ivy" />
+                    </Link>
                 </li>
             </ul>
             <ul className="page-links">
                 <li>
-                    <a href="https://ivy.dev/docs/ivy/">Ivy Docs</a>
+                    <Link href="/contact">Ivy Enterprise</Link>
                 </li>
-                {/* <li>
-                    <button onClick={() => navigate("/console")}>Console</button>
-                </li> */}
+                <li>
+                    <a href="https://ivy.dev/docs/">Docs</a>
+                </li>
                 <li>
                     <a href="https://github.com/Transpile-AI/ivy">Ivy on GitHub</a>
-                </li>
-                <li>
-                    <Link href="/contact">Contact</Link>
                 </li>
             </ul>
         </nav>

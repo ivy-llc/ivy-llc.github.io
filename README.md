@@ -1,4 +1,4 @@
-# Transpile AI Website
+# Ivy Website
 
 Next.js website hosted on https://ivy.dev/ via GitHub pages
 

@@ -22,7 +22,7 @@ export default function Home() {
             <div className="one-line-div">
                 <h1 className="main-heading">One-Line Conversion</h1>
                 <p className="ivy-intro">
-                    <span style={{ color: "#08bc2c" }}><strong>Ivy</strong></span>, developed by <strong>Transpile AI</strong>, allows deep learning models to be
+                    <span style={{ color: "#08bc2c" }}><strong>Ivy</strong></span> allows deep learning models to be
                     transpiled between frameworks with just a single line of code.
                 </p>
                 <Transpilation2 />
@@ -50,8 +50,8 @@ export default function Home() {
                     We welcome open-source contributions to Ivy in the form of <strong>Pull Requests</strong> and <strong>Issues</strong> on our GitHub repository.
                 </p>
                 <p>
-                    The Transpile AI Discord server is the perfect place to ask questions about Ivy, get ideas for how to contribute,<br />
-                    and get help from fellow developers and the <strong>Transpile</strong> team. We&apos;re looking forward to working with you!
+                    The Ivy Discord server is the perfect place to ask questions, get ideas for how to contribute,<br />
+                    and get help from fellow developers and the <strong>Ivy</strong> team. We&apos;re looking forward to working with you!
                 </p>
                 <GitHubStats />
                 <SocialHandles />
