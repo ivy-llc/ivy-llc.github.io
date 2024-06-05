@@ -64,6 +64,16 @@ p {
     margin-bottom: 0px;
 }
 
+.internal-link {
+    color: #08bc2c;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.internal-link:hover {
+    text-decoration: underline;
+}
+
 
 /* other possible fonts:
 - Consolas

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import "src/styles/App.css";
 import "src/styles/index.css";
 import "src/styles/LandingPage.css";
@@ -41,6 +42,7 @@ export default function Home() {
                     This makes it incredibly easy to modify the model once its been transpiled to the new framework -
                     just as simple as if it had been created using it originally.
                 </p>
+                <Link className="internal-link" href="/source_to_source">Read More</Link>
                 <Transpilation1 />
             </div>
             <div className="community-div">
