@@ -26,6 +26,7 @@ export default function Home() {
                     <span style={{ color: "#08bc2c" }}><strong>Ivy</strong></span> allows deep learning models to be
                     transpiled between frameworks with just a single line of code.
                 </p>
+                <a className="internal-link" href="https://ivy.dev/docs/demos/examples_and_demos.html">Explore Examples and Demos</a>
                 <Transpilation2 />
             </div>
             <div className="uniting-div">
