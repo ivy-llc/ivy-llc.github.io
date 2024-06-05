@@ -3,42 +3,31 @@
 import React, { useState } from "react";
 import { useInView } from "react-intersection-observer";
 import { CSSTransition } from "react-transition-group";
-import "src/styles/Transpilation1.css";
-import torchLogo from "src/assets/torch-logo.png";
-import tfLogo from "src/assets/tf-logo.png";
-import ivyTranspile from "src/assets/ivy-transpile.png";
-import arrow from "src/assets/curved-arrow-dark-gray.png";
+import "src/styles/Transpilation3.css";
+import ivyTranspile from "src/assets/tf-translate.png";
 import torchModel from "src/assets/torch1.png";
-import tfModel from "src/assets/translated-tf1.png";
 import Explanation1 from "src/components/Explanation1";
+import torchTranslate from "src/assets/torch-330-110.png";
+import tfTranslate from "src/assets/tf-330-110.png";
 
-function Transpilation1() {
+function Transpilation3() {
     const [showExplanation] = useState<boolean>(false);  // setShowExplanation
 
-    const { ref, inView } = useInView({
-        threshold: 0.2,
-        triggerOnce: true,
-    });
-
-    const fadeInClass = inView ? "fade-in" : "hidden";
-
     return (
-        <div className={`${fadeInClass}`} ref={ref} >
-            <div className="transpilation">
+        <div>
+            <div className="transpilation-step">
+                <h3>Define a <span style={{ color: "#ef4b28" }}>PyTorch</span> model</h3>
+                <img src={torchModel.src} className="torch-model" alt="PyTorch model" />
+            </div>
+            <div className="transpilation-step">
+                {/* ivy color: #08bc2c */}
+                <h3>Transpile to <span style={{ color: "#ff8105" }}>TensorFlow</span></h3>
                 <img src={ivyTranspile.src} className="ivy-transpile" alt="ivy.transpile" />
             </div>
-            <div>
-                <img src={arrow.src} className="arrow" alt="arrow" />
-            </div>
-            <div className="transpilation-container">
-                <div className="transpilation-item">
-                    <img src={torchLogo.src} className="framework-logo" alt="PyTorch" title="PyTorch" />
-                    <img src={torchModel.src} className="torch-model" alt="PyTorch Model" title="PyTorch Model" />
-                </div>
-                <div className="transpilation-item">
-                    <img src={tfLogo.src} className="framework-logo" alt="TensorFlow" title="TensorFlow" />
-                    <img src={tfModel.src} className="tf-model" alt="Transpiled TensorFlow Model" title="Transpiled TensorFlow Model" />
-                </div>
+            <div className="transpilation-step">
+                <h3>Use in the new framework</h3>
+                <img src={torchTranslate.src} className="torch-translate" alt="" />
+                <img src={tfTranslate.src} className="torch-translate" alt="" />
             </div>
             {/* <button className="deep-dive-button" onClick={() => setShowExplanation(!showExplanation)}>
                 {showExplanation ? "Deep Dive -" : "Deep Dive +"}
@@ -55,4 +44,4 @@ function Transpilation1() {
     );
 }
 
-export default Transpilation1;
+export default Transpilation3;

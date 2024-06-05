@@ -28,9 +28,9 @@ function SupportedFrameworks() {
             <a href="https://jax.readthedocs.io/en/latest/notebooks/quickstart.html" target="_blank" rel="noopener noreferrer">
                 <img src={jaxLogo.src} alt="JAX" className={`jax-logo ${fadeInClass}`} ref={ref} />
             </a>
-            <a href="https://github.com/ml-explore/mlx" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://github.com/ml-explore/mlx" target="_blank" rel="noopener noreferrer">
                 <img src={mlxLogo.src} alt="MLX" className={`mlx-logo ${fadeInClass}`} ref={ref} />
-            </a>
+            </a> */}
             <a href="https://numpy.org/" target="_blank" rel="noopener noreferrer">
                 <img src={numpyLogo.src} alt="Numpy" className={`numpy-logo ${fadeInClass}`} ref={ref} />
             </a>
