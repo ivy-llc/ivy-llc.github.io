@@ -1,0 +1,58 @@
+"use client";
+
+import React, { useState } from "react";
+import { useInView } from "react-intersection-observer";
+import { CSSTransition } from "react-transition-group";
+import "src/styles/Transpilation1.css";
+import torchLogo from "src/assets/torch-logo.png";
+import tfLogo from "src/assets/tf-logo.png";
+import ivyTranspile from "src/assets/ivy-transpile.png";
+import arrow from "src/assets/curved-arrow-dark-gray.png";
+import torchModel from "src/assets/torch1.png";
+import tfModel from "src/assets/translated-tf1.png";
+import Explanation1 from "src/components/Explanation1";
+
+function Transpilation1() {
+    const [showExplanation] = useState<boolean>(false);  // setShowExplanation
+
+    const { ref, inView } = useInView({
+        threshold: 0.2,
+        triggerOnce: true,
+    });
+
+    const fadeInClass = inView ? "fade-in" : "hidden";
+
+    return (
+        <div className={`${fadeInClass}`} ref={ref} >
+            <div className="transpilation">
+                <img src={ivyTranspile.src} className="ivy-transpile" alt="ivy.transpile" />
+            </div>
+            <div>
+                <img src={arrow.src} className="arrow" alt="arrow" />
+            </div>
+            <div className="transpilation-container">
+                <div className="transpilation-item">
+                    <img src={torchLogo.src} className="framework-logo" alt="PyTorch" title="PyTorch" />
+                    <img src={torchModel.src} className="torch-model" alt="PyTorch Model" title="PyTorch Model" />
+                </div>
+                <div className="transpilation-item">
+                    <img src={tfLogo.src} className="framework-logo" alt="TensorFlow" title="TensorFlow" />
+                    <img src={tfModel.src} className="tf-model" alt="Transpiled TensorFlow Model" title="Transpiled TensorFlow Model" />
+                </div>
+            </div>
+            {/* <button className="deep-dive-button" onClick={() => setShowExplanation(!showExplanation)}>
+                {showExplanation ? "Deep Dive -" : "Deep Dive +"}
+            </button> */}
+            <CSSTransition
+                in={showExplanation}
+                timeout={1000}
+                classNames="deep-dive"
+                unmountOnExit
+            >
+                <Explanation1 />
+            </CSSTransition>
+        </div>
+    );
+}
+
+export default Transpilation1;
