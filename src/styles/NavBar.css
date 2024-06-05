@@ -6,7 +6,7 @@ body {
     background-color: #1c1b1b;
     color: #fdfdfd;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;  /* space-between */
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
