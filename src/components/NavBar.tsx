@@ -22,7 +22,7 @@ function NavBar() {
                     <a href="https://ivy.dev/docs/">Docs</a>
                 </li>
                 <li>
-                    <a href="https://github.com/Transpile-AI/ivy">Ivy on GitHub</a>
+                    <a href="https://github.com/ivy-llc/ivy">Ivy on GitHub</a>
                 </li>
             </ul>
         </nav>

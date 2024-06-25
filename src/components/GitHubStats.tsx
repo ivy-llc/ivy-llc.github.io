@@ -13,8 +13,8 @@ function GitHubStats() {
 
     async function fetchRepoData() {
         try {
-            const response = await octokit.request("GET /repos/Transpile-AI/ivy", {
-                owner: "Transpile-AI",
+            const response = await octokit.request("GET /repos/ivy-llc/ivy", {
+                owner: "ivy-llc",
                 repo: "ivy",
                 headers: {
                     "X-GitHub-Api-Version": "2022-11-28"
@@ -31,8 +31,8 @@ function GitHubStats() {
 
     async function fetchContributorsData() {
         try {
-            const response = await octokit.request("GET /repos/Transpile-AI/ivy/contributors?per_page=1&anon=true", {
-                owner: "Transpile-AI",
+            const response = await octokit.request("GET /repos/ivy-llc/ivy/contributors?per_page=1&anon=true", {
+                owner: "ivy-llc",
                 repo: "ivy",
                 headers: {
                     "X-GitHub-Api-Version": "2022-11-28"
@@ -40,8 +40,8 @@ function GitHubStats() {
             })
             // can potentially parse the num contributors from the link, something like this:
             // response.headers["link"] :
-            // <https://api.github.com/repositories/330914717/contributors?per_page=1&anon=true&owner=Transpile-AI&repo=ivy&page=2>; rel="next",
-            // <https://api.github.com/repositories/330914717/contributors?per_page=1&anon=true&owner=Transpile-AI&repo=ivy&page=1471>; rel="last"
+            // <https://api.github.com/repositories/330914717/contributors?per_page=1&anon=true&owner=ivy-llc&repo=ivy&page=2>; rel="next",
+            // <https://api.github.com/repositories/330914717/contributors?per_page=1&anon=true&owner=ivy-llc&repo=ivy&page=1471>; rel="last"
             return response.data;
         } catch (error) {
             return {

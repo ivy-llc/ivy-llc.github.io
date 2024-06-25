@@ -9,7 +9,7 @@ function SocialHandles() {
         <nav className="social nav">
             <ul>
                 <li>
-                    <a href="https://github.com/Transpile-AI/ivy" title="GitHub">
+                    <a href="https://github.com/ivy-llc/ivy" title="GitHub">
                         <img src={githubLogo.src} className="social-logo" alt="GitHub" />
                     </a>
                 </li>
