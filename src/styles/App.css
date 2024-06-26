@@ -48,3 +48,17 @@
     margin-top: 80px;
     margin-bottom: 15px;
 } */
+
+.sub-heading {
+    padding: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+.main-heading {
+    padding: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 30px;
+}

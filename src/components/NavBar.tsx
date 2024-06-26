@@ -7,22 +7,22 @@ import ivyLogo from "src/assets/ivy-logo.png";
 function NavBar() {
     return (
         <nav className="nav bar">
-            {/* <ul>
+            <ul>
                 <li>
                     <Link href="/" className="title-button">
                         <img src={ivyLogo.src} className="title-logo" alt="ivy" />
                     </Link>
                 </li>
-            </ul> */}
+            </ul>
             <ul className="page-links">
                 <li>
-                    <Link href="/enterprise">Ivy Enterprise</Link>
+                    <Link href="/enterprise">Enterprise</Link>
                 </li>
                 <li>
-                    <a href="https://ivy.dev/docs/">Docs</a>
+                    <a href="https://ivy.dev/docs/">Documentation</a>
                 </li>
                 <li>
-                    <a href="https://github.com/ivy-llc/ivy">Ivy on GitHub</a>
+                    <a href="https://github.com/ivy-llc/ivy">GitHub</a>
                 </li>
             </ul>
         </nav>

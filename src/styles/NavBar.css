@@ -3,18 +3,20 @@ body {
 }
 
 .nav.bar {
-    background-color: #1c1b1b;
+    background-color: #313131;
     color: #fdfdfd;
     display: flex;
-    justify-content: center;  /* space-between */
+    justify-content: space-between;  /* space-between */
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
     position: sticky;
     top: 0;
+    height:40px;
     z-index: 10;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
 }
 
 .nav.bar ul {
@@ -68,7 +70,7 @@ body {
 }
 
 .title-logo {
-    height: 55px;
+    height: 40px;
     width: auto;
     font-size: 24px;
     font-weight: bold;

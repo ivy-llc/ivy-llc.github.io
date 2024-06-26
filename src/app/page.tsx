@@ -26,7 +26,6 @@ export default function Home() {
                     <span style={{ color: "#08bc2c" }}><strong>Ivy</strong></span> allows deep learning models to be
                     transpiled between frameworks with just a single line of code.
                 </p>
-                <a className="internal-link" href="https://ivy.dev/docs/demos/examples_and_demos.html">Explore Examples and Demos</a>
                 <Transpilation2 />
             </div>
             <div className="uniting-div">
@@ -43,7 +42,6 @@ export default function Home() {
                     This makes it incredibly easy to modify the model once its been transpiled to the new framework -
                     just as simple as if it had been created using it originally.
                 </p>
-                <Link className="internal-link" href="/source_to_source">Read More</Link>
                 <Transpilation1 />
             </div>
             <div className="community-div">
