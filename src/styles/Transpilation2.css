@@ -34,7 +34,7 @@
     width: 10px;
     height: auto;
     border: 1px solid black;
-    border-radius: 30px;
+    border-radius: 15px;
     margin-left: 20px;
     margin-right: 0px;
 }
@@ -43,7 +43,7 @@
     width: 10px;
     height: auto;
     border: 1px solid black;
-    border-radius: 30px;
+    border-radius: 15px;
     margin-left: 0px;
     margin-right: 0px;
 }

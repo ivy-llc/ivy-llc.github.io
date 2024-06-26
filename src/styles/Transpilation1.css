@@ -1,6 +1,7 @@
 .transpilation {
     justify-content: space-between;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .transpilation img {
@@ -15,13 +16,13 @@
 }
 
 .torch-model {
-    border-radius: 30px;
+    border-radius: 15px;
     width: 550px;
     border: 1px solid black;
 }
 
 .tf-model {
-    border-radius: 30px;
+    border-radius: 15px;
     width: 550px;
     border: 1px solid black;
 }
@@ -34,7 +35,7 @@
 
 .transpilation-container img {
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .transpilation-item {
@@ -43,6 +44,7 @@
     align-items: center;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 30px;
 }
 
 .framework-logo {
