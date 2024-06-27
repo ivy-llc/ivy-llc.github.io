@@ -20,7 +20,7 @@
         "eslint": "^8.57.0",
         "eslint-plugin-react-refresh": "^0.4.6",
         "next": "^14.2.3",
-        "octokit": "^3.2.0",
+        "octokit": "^4.0.2",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-intersection-observer": "^9.10.0",

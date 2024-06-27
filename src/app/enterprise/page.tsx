@@ -12,6 +12,7 @@ export default function Contact() {
             <div className="enterprise-intro">
                 <h1>Ivy for Enterprise</h1>
                 <p><span>Ivy offers additional products and features for enterprise customers.</span></p>
+                <p><span>If interested, please contact us at enterprise@transpile-ai.com.</span></p>
             </div>
             <div className="enterprise-container">
                 <div className="enterprise-item">
