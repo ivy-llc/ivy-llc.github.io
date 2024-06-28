@@ -57,6 +57,25 @@ body {
     border-left:none;
     border-right:none;
     border-top:none;
+    padding-top:14px;
     padding-left: 50px;
     padding-right: 50px;
+    display: flex;
+}
+
+.crossImg {
+    position: relative;
+    color: red;
+    right: 10px;
+    height: 30px;
+    bottom: 2px;
+    filter: invert(46%) sepia(21%) saturate(5846%) hue-rotate(340deg) brightness(100%) contrast(102%);
+}
+
+.checkImg {
+    position: relative;
+    right: 10px;
+    height: 30px;
+    bottom: 2px;
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
 }

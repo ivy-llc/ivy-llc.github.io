@@ -4,6 +4,8 @@ import "src/styles/index.css";
 import "src/styles/LandingPage.css";
 import "src/styles/Enterprise.css";
 import NavBar from "src/components/NavBar";
+import checkImg from "src/assets/check.svg";
+import crossImg from "src/assets/cross.svg";
 
 export default function Contact() {
     return (
@@ -18,19 +20,19 @@ export default function Contact() {
                 <div className="enterprise-item">
                     <ul className="sub-tiers-ul">
                     <h3 className="enterprise-sub-title">Standard</h3>
-                        <li className="enterprise-li">Unlimited functional transpilations</li>
-                        <li className="enterprise-li">Source code processed by Ivy</li>
-                        <li className="enterprise-li">No source-to-source transpiler</li>
-                        <li className="enterprise-li">Open source support</li>
+                        <li className="enterprise-li"><img src={checkImg.src} className="checkImg"/>Unlimited functional transpilations</li>
+                        <li className="enterprise-li"><img src={crossImg.src} className="crossImg"/>Source code must be processed by Ivy</li>
+                        <li className="enterprise-li"><img src={crossImg.src} className="crossImg"/>No source-to-source transpiler</li>
+                        <li className="enterprise-li"><img src={crossImg.src} className="crossImg"/>Open source support only</li>
                     </ul>
                 </div>
                 <div className="enterprise-item">
                     <ul className="sub-tiers-ul">
                     <h3 className="enterprise-sub-title">Enterprise</h3>
-                        <li className="enterprise-li">Unlimited functional transpilations</li>
-                        <li className="enterprise-li">Source code processed by customer on premise</li>
-                        <li className="enterprise-li">Source-to-source transpiler</li>
-                        <li className="enterprise-li">Technical support by Ivy team</li>
+                        <li className="enterprise-li"><img src={checkImg.src} className="checkImg"/>Unlimited functional transpilations</li>
+                        <li className="enterprise-li"><img src={checkImg.src} className="checkImg"/>Source code processed by customer on premise</li>
+                        <li className="enterprise-li"><img src={checkImg.src} className="checkImg"/>Source-to-source transpiler</li>
+                        <li className="enterprise-li"><img src={checkImg.src} className="checkImg"/>Technical support by Ivy team</li>
                     </ul>
                 </div>
             </div>
