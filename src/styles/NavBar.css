@@ -3,8 +3,8 @@ body {
 }
 
 .nav.bar {
-    background-color: #313131;
-    color: #fdfdfd;
+    background-color:  #fdfdfd;
+    color: #313131;
     display: flex;
     justify-content: space-between;  /* space-between */
     align-items: stretch;
@@ -74,4 +74,5 @@ body {
     width: auto;
     font-size: 24px;
     font-weight: bold;
+    filter: brightness(150%);
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import "src/styles/NavBar.css";
-import ivyLogo from "src/assets/ivy-logo.png";
+import ivyLogo from "src/assets/ivy_logo_light_long.png";
 
 
 function NavBar() {

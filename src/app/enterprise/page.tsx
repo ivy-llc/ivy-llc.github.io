@@ -1,3 +1,4 @@
+
 import React from "react";
 import "src/styles/App.css";
 import "src/styles/index.css";
@@ -16,7 +17,7 @@ export default function Contact() {
                 <p><span>Ivy offers additional products and features for enterprise customers.</span></p>
                 <p><span>If interested, please contact us at enterprise@transpile-ai.com.</span></p>
             </div>
-            <div className="enterprise-container">
+            <div className={`enterprise-container`}>
                 <div className="enterprise-item">
                     <ul className="sub-tiers-ul">
                     <h3 className="enterprise-sub-title">Standard</h3>

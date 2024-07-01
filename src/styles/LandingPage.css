@@ -37,6 +37,9 @@ p {
     background-color: #fdfdfd;
     padding-top: 0px;
     padding-bottom: 70px;
+    background: linear-gradient(90deg, rgb(90,90,90), black);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .s2s-div {
@@ -62,6 +65,7 @@ p {
     width: 300px;
     height: auto;
     margin-bottom: 0px;
+    filter: brightness(150%);
 }
 
 .internal-link {
