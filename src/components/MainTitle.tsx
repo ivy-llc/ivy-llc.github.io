@@ -1,12 +1,15 @@
 import React from "react";
-import ivyLogo from "src/assets/ivy_logo_light.png";
-
+import ivyLogo from "src/assets/full_logo_light_long.svg";
+import "src/styles/MainTitle.css";
 
 function MainTitle() {
     return (
         <div className="main-title-div">
             <img src={ivyLogo.src} className="ivy-logo" alt="ivy" />
-            <h2 className="main-title-heading">Convert ML Models Between Frameworks</h2>
+            <h2 className="main-title-heading">
+                <span>Convert Machine Learning Code</span>
+                <span>Between Frameworks</span>
+            </h2>
             <video poster="" id="video1" width="100%" height="100%" autoPlay loop muted>
                 <source src="https://dl.dropboxusercontent.com/scl/fi/0k6jvh4iwetaoznc91eue/Ivy_hero_animation_18bg.mp4?rlkey=be89qp8xcycvr1ddvyk4un5yl&dl=0" type="video/mp4" />
             </video>

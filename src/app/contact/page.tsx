@@ -13,7 +13,7 @@ export default function Contact() {
             <p>If you have any questions or are interested in one of our enterprise plans, feel free to get in touch at <span style={{
                 color: "green",
                 textDecoration: "underline",
-            }}>hello@transpile-ai.com</span></p>
+            }}>hello@ivy.dev</span></p>
             <SocialHandles />
         </>
     );

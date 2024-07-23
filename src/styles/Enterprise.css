@@ -1,89 +1,57 @@
+@import url('/src/styles/fonts.css');
+
 body {
-    color: #313131;
-    background-color:#fdfdfd !important;
+    margin: 0;
+    font-family: 'NATS', sans-serif;
 }
 
-.enterprise-intro {
-    color: #313131;
-    background-color:#fdfdfd;
-    margin-bottom: 50px;
-    margin-top:50px;
+.pricing-intro {
+    text-align: center;
 }
 
-.enterprise-intro h1 {
-    background: linear-gradient(180deg, grey, black);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.enterprise-container {
+.pricing-container {
     display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-    color: #313131;
-    background-color:#fdfdfd;
-    padding-bottom: 400px;
-    margin-left: 140px;
-    margin-right: 140px;
+    justify-content: center;
+    gap: 4rem;
+    margin: 20px;
+    padding: 50px 20px;
 }
 
-.enterprise-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    width: 40%;
+.pricing-item {
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.enterprise-sub-title {
-    font-size: 24px;
-    padding-left: 50px;
-    padding-right: 100px;
-    margin-bottom: 0px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid white;
+.pricing-item:hover,
+.pricing-item.selected {
+    border-color: #7d6ab7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.sub-tiers-ul {
-    color: #fdfdfd;
-    border: 1px solid silver;
-    border-radius: 5px;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-bottom: 40px;
-    background-color: #1c1b1b;
-    font-size: 16px;
+.pricing-title {
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+}
+
+.pricing-features {
     list-style: none;
-    text-align: left;
-    width: 100%;
+    padding: 0;
 }
 
-.sub-tiers-ul li {
-    padding: 10px;
-    border: 1px solid white;
-    border-left:none;
-    border-right:none;
-    border-top:none;
-    padding-top:14px;
-    padding-left: 50px;
-    padding-right: 50px;
+.pricing-feature {
     display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 20px 10px;
 }
 
-.crossImg {
-    position: relative;
-    color: red;
-    right: 10px;
-    height: 30px;
-    bottom: 2px;
-    filter: invert(46%) sepia(21%) saturate(5846%) hue-rotate(340deg) brightness(100%) contrast(102%);
-}
-
-.checkImg {
-    position: relative;
-    right: 10px;
-    height: 30px;
-    bottom: 2px;
-    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }

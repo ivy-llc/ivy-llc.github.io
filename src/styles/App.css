@@ -1,3 +1,6 @@
+/* app.css */
+@import url('/src/styles/fonts.css');
+
 #root {
     margin: 0 auto;
     text-align: center;
@@ -26,11 +29,11 @@
 }
 
 .deep-dive-button {
-    padding: 8px 15px;
+    padding: 10px 20px;
     border: 1px solid white;
     border-radius: 20px;
     background: #1c1b1b;
-    font-size: 17px;
+    font-size: 1rem;
     cursor: pointer;
     transition: box-shadow 0.1s ease-in-out;
 }
@@ -39,27 +42,13 @@
     box-shadow: 0 0 5px white;
 }
 
-/* .main-heading {
-    margin-top: 60px;
-    margin-bottom: 15px;
-}
-
-.sub-heading {
-    margin-top: 80px;
-    margin-bottom: 15px;
-} */
-
 .sub-heading {
     padding: 20px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-top: 30px;
+    margin: 20px 0;
 }
 
 .main-heading {
     padding: 20px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-top: 30px;
-    font-size: 40px;
+    margin: 20px 0;
+    font-size: 2.5rem;
 }

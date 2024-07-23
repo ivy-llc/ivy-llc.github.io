@@ -35,16 +35,16 @@ function Transpilation2() {
     return (
         <div>
             <div className={`transpilation-step ${fadeInClassTorch}`} ref={ref_torch} >
-                <h3>Define a <span style={{ color: "#ef4b28" }}>PyTorch</span> model</h3>
+                <p>Define a <span className="pt-text">PyTorch</span> model</p>
                 <img src={torchModel.src} className="torch-model" alt="PyTorch model" />
             </div>
             <div className={`transpilation-step ${fadeInClassTF}`} ref={ref_tf}>
                 {/* ivy color: #08bc2c */}
-                <h3>Transpile to <span style={{ color: "#ff8105" }}>TensorFlow</span></h3>
+                <p>Transpile to <span className="tf-text">TensorFlow</span></p>
                 <img src={ivyTranspile.src} className="ivy-transpile" alt="ivy.transpile" />
             </div>
             <div className={`transpilation-step ${fadeInClassFinal}`} ref={ref_final}>
-                <h3>Use in the new framework</h3>
+                <p>Use in the new framework</p>
                 <img src={torchTranslate.src} className="torch-translate" alt="" />
                 <img src={tfTranslate.src} className="torch-translate" alt="" />
             </div>

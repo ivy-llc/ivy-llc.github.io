@@ -1,71 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+/* LandingPage.css */
+@import url('/src/styles/fonts.css');
 
 #root {
     margin: 0 auto;
     text-align: center;
 }
 
+h1, h2, h3 {
+    font-family: 'NATS Sans', sans-serif;
+}
+
 h1 {
-    font-size: 36px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+h2, h3 {
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin: 15px 0;
 }
 
 p {
-    font-size: 18px;
+    font-size: 1.45rem;
+    margin: 10px 0;
+}
+
+.section {
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
 }
 
 .main-title-div {
     color: #313131;
     background-color: #fdfdfd;
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    /* Adjust this value as needed */
 }
 
-.one-line-div {
-    color: #fdfdfd;
-    background-color: #313131;
-    padding-top: 0px;
-    padding-bottom: 70px;
+.single-line-div {
+    background-color: #fefefe;
 }
 
 .uniting-div {
     color: #313131;
-    background-color: #fdfdfd;
-    padding-top: 0px;
-    padding-bottom: 70px;
-    background: linear-gradient(90deg, rgb(90,90,90), black);
+    background-color: #fefefe;
+    background: linear-gradient(90deg, #5a5a5a, #000);
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .s2s-div {
-    color: #fdfdfd;
-    background-color: #313131;
-    padding-top: 0px;
-    padding-bottom: 70px;
+    background-color: #fefefe;
 }
 
 .community-div {
     color: #313131;
-    background-color: #fdfdfd;
-    padding-top: 0px;
-    padding-bottom: 70px;
-}
-
-.main-title-heading {
-    z-index: 1;
+    background-color: #fefefe;
 }
 
 .ivy-logo {
     z-index: 1;
-    width: 300px;
+    width: 20%;
     height: auto;
-    margin-bottom: 0px;
-    filter: brightness(150%);
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ivy-text {
+    font-size: 1.45rem;
+    font-weight: 700;
+    background: linear-gradient(to right, #8871bb, #aa84c7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .internal-link {
@@ -79,79 +94,35 @@ p {
 }
 
 
-/* other possible fonts:
-- Consolas
-- Monaco */
-.main-title-pip {
-    font-family: 'Inconsolata', monospace;
-    font-weight: bolder;
-    color: #fdfdfd;
-    z-index: 1;
-    border: 3px solid #313131;
-    border-radius: 15px;
-    padding-left: 14px;
-    padding-right: 15px;
-    padding-top: 3px;
-    padding-bottom: 5px;
-    background-color: #313131;
-    font-size: 24px;
-}
-
-#video1 {
-    z-index: 0;
+#video1, #video-mob {
     position: absolute;
-    min-width: 100%;
-    min-height: 100%;
-    max-height: 10%;
-    width: auto;
-    height: auto;
     object-fit: cover;
-    object-position: 50% 50%;
-}
-
-#video-mob {
-    object-fit: cover;
-    position: absolute;
-    object-position: 50% 0%;
+    width: 100%;
     height: 100%;
 }
 
 @media only screen and (min-width: 600px) {
-
     #video1 {
         display: block;
     }
-
     #video-mob {
         display: none;
     }
 }
 
 @media only screen and (max-width: 600px) {
-
     #video1 {
         display: none;
     }
-
     #video-mob {
         display: block;
     }
 }
 
-
 @media only screen and (max-width: 991px) and (min-width: 678px) {
     #video1 {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0%;
-        left: 0%;
-        transform: translate(0%, 0%);
-        object-fit: cover;
-        position: absolute;
         object-position: 50% 0%;
     }
-
 }
 
 .fade-in {
@@ -167,7 +138,6 @@ p {
     0% {
         opacity: 0;
     }
-
     100% {
         opacity: 1;
     }

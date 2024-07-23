@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
+import ClientLayout from "./client-layout";
 
 export const metadata: Metadata = {
-    title: "ivy",
+    title: "Ivy - Convert Machine Learning Code Between Frameworks",
     description: "",
 }
 
@@ -13,10 +14,12 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
-                <link rel="icon" type="image/svg+xml" href="/universal.svg" />
+                <link rel="icon" type="image/svg+xml" href="/spiral_logo.svg" />
             </head>
             <body>
-                <div id="root">{children}</div>
+                <ClientLayout>
+                    {children}
+                </ClientLayout>
             </body>
         </html>
     )

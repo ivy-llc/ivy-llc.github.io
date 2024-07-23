@@ -4,7 +4,7 @@
         "lib": [
             "dom",
             "dom.iterable",
-            "esnext"
+            "esnext",
         ],
         "allowJs": true,
         "skipLibCheck": true,
@@ -21,10 +21,10 @@
         "incremental": true,
         "plugins": [
             {
-                "name": "next"
+                "name": "next",
             }
         ],
-        "strictNullChecks": true
+        "strictNullChecks": true,
     },
     "include": [
         "next-env.d.ts",
@@ -33,9 +33,9 @@
         ".next/types/**/*.ts",
         "./dist/types/**/*.ts",
         "build/types/**/*.ts",
-        "./build/types/**/*.ts"
+        "./build/types/**/*.ts",
     ],
     "exclude": [
-        "node_modules"
+        "node_modules",
     ]
 }
