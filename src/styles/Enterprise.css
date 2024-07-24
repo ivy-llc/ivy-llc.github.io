@@ -1,8 +1,6 @@
-@import url('/src/styles/fonts.css');
-
 body {
     margin: 0;
-    font-family: 'NATS', sans-serif;
+    /* font-family: "Noto Sans", sans-serif; */
 }
 
 .pricing-intro {
@@ -12,7 +10,7 @@ body {
 .pricing-container {
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 3rem;
     margin: 20px;
     padding: 50px 20px;
 }
@@ -21,7 +19,7 @@ body {
     border: 2px solid #e0e0e0;
     border-radius: 10px;
     padding: 30px;
-    width: 400px;
+    width: 430px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -34,8 +32,8 @@ body {
 }
 
 .pricing-title {
-    font-size: 1.6rem;
-    margin-bottom: 30px;
+    font-size: 1.75rem;
+    margin-bottom: 50px;
 }
 
 .pricing-features {
@@ -46,12 +44,12 @@ body {
 .pricing-feature {
     display: flex;
     align-items: center;
-    font-size: 1.1rem;
-    margin: 20px 10px;
+    font-size: 1.3rem;
+    margin: 20px 20px;
 }
 
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
 }

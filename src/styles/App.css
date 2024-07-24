@@ -1,6 +1,4 @@
 /* app.css */
-@import url('/src/styles/fonts.css');
-
 #root {
     margin: 0 auto;
     text-align: center;
@@ -50,5 +48,5 @@
 .main-heading {
     padding: 20px;
     margin: 20px 0;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
 }

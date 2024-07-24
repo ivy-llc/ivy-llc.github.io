@@ -81,21 +81,21 @@ function GitHubStats() {
     return (
         <div className="github-stats">
             <div className="gh-stat">
-                <img src={starLogo.src} className="gh-star" alt="GitHub Star" />
+                <img src={starLogo.src} className="gh-star" alt="Github Stars" />
                 <div className="stat-container">
-                    <h2 className={`gh-stat-title ${typedClass1}`} ref={ref}>{starsString} <span className="normal-weight">GitHub Stars</span></h2>
+                    <p className={`gh-stat-title ${typedClass1}`} ref={ref}>{starsString} <span className="normal-weight">Github Stars</span></p>
                 </div>
             </div>
             <div className="gh-stat">
-                <img src={forkLogo.src} className="gh-fork" alt="GitHub Fork" />
+                <img src={forkLogo.src} className="gh-fork" alt="Github Forks" />
                 <div className="stat-container">
-                    <h2 className={`gh-stat-title ${typedClass2}`}>{forksString} <span className="normal-weight">GitHub Forks</span></h2>
+                    <p className={`gh-stat-title ${typedClass2}`}>{forksString} <span className="normal-weight">Github Forks</span></p>
                 </div>
             </div>
             <div className="gh-stat">
-                <img src={prLogo.src} className="gh-pr" alt="GitHub PR" />
+                <img src={prLogo.src} className="gh-pr" alt="Gitub Pull Requests" />
                 <div className="stat-container">
-                    <h2 className={`gh-stat-title ${typedClass3}`}>{contributorsString} <span className="normal-weight">Contributors</span></h2>
+                    <p className={`gh-stat-title ${typedClass3}`}>{contributorsString} <span className="normal-weight">Contributors</span></p>
                 </div>
             </div>
         </div>

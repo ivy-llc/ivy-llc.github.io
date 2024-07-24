@@ -2,44 +2,44 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 200px; /* Space between logos */
+    padding: 50px 0; /* Top and bottom padding */
+    background-color: #fdfdfd;
 }
 
-.supported-frameworks img {
-    margin-top: 50px;
-    margin-bottom: 10px;
+.framework-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px; /* Uniform height for all logos */
+    width: 70px; /* Uniform width for all logos */
+    transition: transform 0.3s;
 }
 
-.jax-logo {
-    height: 70px;
-    width: auto;
-    margin-left: 35px;
-    margin-right: 35px;
+.framework-logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain; /* Ensures logos maintain aspect ratio */
 }
 
-.mlx-logo {
-    height: 70px;
-    width: auto;
-    margin-left: 35px;
-    margin-right: 35px;
+.framework-logo:hover {
+    transform: scale(1.1);
 }
 
-.numpy-logo {
-    height: 70px;
-    width: auto;
-    margin-left: 35px;
-    margin-right: 35px;
+.fade-in {
+    animation: fadeIn 1.8s ease-in-out;
 }
 
-.torch-logo {
-    height: 52px;
-    width: auto;
-    margin-left: 35px;
-    margin-right: 35px;
+.hidden {
+    opacity: 0;
+    visibility: hidden;
 }
 
-.tf-logo {
-    height: 90px;
-    width: auto;
-    margin-left: 35px;
-    margin-right: 35px;
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

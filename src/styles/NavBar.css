@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'NATS', sans-serif;
+    /* font-family: "Noto Sans", sans-serif; */
 }
 
 .navbar {
@@ -37,8 +37,8 @@ body {
 .navbar .page-links a {
     color: #313131;
     text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 400;
     transition: color 0.3s, border-bottom 0.3s;
 }
 

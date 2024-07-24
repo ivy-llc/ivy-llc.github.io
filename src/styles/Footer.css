@@ -1,12 +1,11 @@
-@import url('/src/styles/fonts.css');
-
 .footer {
     background-color: #313131;
     color: #fdfdfd;
     padding: 20px 0;
     text-align: center;
     position: relative;
-    font-family: 'NATS', sans-serif;
+    /* font-family: "Noto Sans", sans-serif; */
+    font-size: 1.3rem;
 }
 
 .footer-content {

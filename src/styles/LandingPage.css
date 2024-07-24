@@ -1,14 +1,11 @@
-/* LandingPage.css */
-@import url('/src/styles/fonts.css');
-
 #root {
     margin: 0 auto;
     text-align: center;
 }
 
-h1, h2, h3 {
-    font-family: 'NATS Sans', sans-serif;
-}
+/* h1, h2, h3 {
+    font-family: "Noto Sans", sans-serif;
+} */
 
 h1 {
     font-size: 2.5rem;
@@ -75,7 +72,7 @@ p {
 }
 
 .ivy-text {
-    font-size: 1.45rem;
+    font-size: 1.50rem;
     font-weight: 700;
     background: linear-gradient(to right, #8871bb, #aa84c7);
     -webkit-background-clip: text;
@@ -92,7 +89,6 @@ p {
 .internal-link:hover {
     text-decoration: underline;
 }
-
 
 #video1, #video-mob {
     position: absolute;
@@ -141,4 +137,87 @@ p {
     100% {
         opacity: 1;
     }
+}
+
+.transpile-demo {
+    background-color: #fdfdfd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.framework-selectors {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.framework-selectors div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: opacity 0.3s;
+}
+
+.framework-selectors select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    background: content-box;
+    color: #313131;
+    /* font-family: "Noto Sans"; */
+}
+
+.framework-selectors select:hover,
+.framework-selectors select:focus {
+    border-color: #8e44ad;
+    box-shadow: 0 0 10px rgba(142, 68, 173, 0.2);
+}
+
+.framework-selectors img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    transition: transform 0.3s;
+
+}
+
+.framework-selectors img:hover {
+    transform: scale(1.1);
+}
+
+.code-block {
+    color: #d4d4d4;
+    border-radius: 10px;
+    text-align: left;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, border-color 0.3s;
+    animation: fadeIn 0.5s ease-in-out;
+    border: #7d6ab7;
+    border-style: outset;
+    border-top: thin;
+    border-left: thin;
+}
+
+pre {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+}
+
+.framework-selectors select:hover + label,
+.framework-selectors select:focus + label {
+    color: #8e44ad;
 }

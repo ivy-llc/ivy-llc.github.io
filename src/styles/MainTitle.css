@@ -1,6 +1,4 @@
 /* MainTitle.css */
-@import url('/src/styles/fonts.css');
-
 .main-title-div {
     color: #313131;
     background-color: #fdfdfd;
@@ -25,10 +23,10 @@
 
 .main-title-heading {
     z-index: 1;
-    font-size: 1.75rem;
-    font-weight: 550;
+    font-size: 1.85rem;
+    font-weight: 500;
     margin-bottom: 20px;
-    font-family: 'NATS Sans', sans-serif;
+    /* font-family: "Noto Sans", sans-serif; */
     display: flex;
     flex-direction: column;
 }
